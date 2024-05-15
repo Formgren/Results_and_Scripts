@@ -8,15 +8,6 @@ def test_code_snippet(code):
         f.write(code)
     subprocess.run(['flake8', '--max-complexity', '1','temp.py', '--extend-ignore', 'E302,E305,E303,E231,E225,E291,E501'], encoding='utf-8')
     print('************************************')
-        # subprocess.run(['flake8', '--max-complexity', '1','temp.py', '--extend-ignore', 'E501'], encoding='utf-8')
-    #subprocess.run(
-    #    [ 'flake8', 'temp.py'],
-    #    encoding='utf-8',
-    #)
-    #if result.stdout:
-    #    print(result.stdout)
-    #if result.stderr:
-    #    print(result.stderr)
 
 def postprocess_markdown(response):
     pattern = r'```python\s+(.*?)```'
