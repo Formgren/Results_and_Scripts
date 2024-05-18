@@ -1,0 +1,5 @@
+[flake8]
+cohesion-below = 100
+cohesion-strict = true
+--max-complexity = 1
+--extend-ignore = E203, E501
