@@ -2,9 +2,9 @@ import json
 import re
 
 def extract_passed_programs():
-    programs_filepath = '/Users/mac/Desktop/KTH/TIDAB3/Exjobb/Resultat/ClassEval/model_output/ClassEval_wizardcoder_greedy.json'
-    results_filepath ='/Users/mac/Desktop/KTH/TIDAB3/Exjobb/Resultat/ClassEval/evals/ClassEval_wizardcoder_greedy.json'
-    output_filename = 'passed_programs.json'
+    programs_filepath = '/Users/mac/Desktop/KTH/TIDAB3/Exjobb/Resultat/model_output/ClassEval_GPT3_5ORIGINAL.json'
+    results_filepath ='/Users/mac/Desktop/KTH/TIDAB3/Exjobb/Resultat/eval/ClassEval_GPT3_5ORIGINAL.json'
+    output_filename = 'ClassEval_GPT3_5ORIGINAL.json'
     # Load the programs and the test file
     with open(programs_filepath, 'r') as f:
         programs = json.load(f)
@@ -20,7 +20,7 @@ def extract_passed_programs():
     print(programs_filename)
 
     for task_id in results[programs_filename]:
-        #print(task_id)
+        print(task_id)
         #print(type(task_id))
         if results[programs_filename][task_id]['TestClass']['class_success'] > 0:
             i += 1
