@@ -1,0 +1,172 @@
+File: temp.py
+  Class: AreaCalculator (3:0)
+    Function: __init__ 1/1 100.00%
+    Function: calculate_circle_area 1/1 100.00%
+    Function: calculate_sphere_area 1/1 100.00%
+    Function: calculate_cylinder_area 1/1 100.00%
+    Function: calculate_sector_area 1/1 100.00%
+    Function: calculate_annulus_area 0/1 0.00%
+    Total: 83.33%
+File: temp.py
+  Class: BinaryDataProcessor (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: clean_non_binary_chars 1/1 100.00%
+    Function: calculate_binary_info 1/1 100.00%
+    Function: convert_to_ascii 1/1 100.00%
+    Function: convert_to_utf8 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: BitStatusUtil (1:0)
+    Function: add staticmethod
+    Function: has staticmethod
+    Function: remove staticmethod
+    Function: check staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: ChandrasekharSieve (3:0)
+    Function: __init__ 2/2 100.00%
+    Function: generate_primes 1/2 50.00%
+    Function: get_primes 1/2 50.00%
+    Total: 66.67%
+File: temp.py
+  Class: ComplexCalculator (3:0)
+    Function: __init__ 0/0 0.00%
+    Function: add staticmethod
+    Function: subtract staticmethod
+    Function: multiply staticmethod
+    Function: divide staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: DataStatistics (3:0)
+    Function: mean 0/0 0.00%
+    Function: median 0/0 0.00%
+    Function: mode 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: FitnessTracker (1:0)
+    Function: __init__ 5/5 100.00%
+    Function: get_BMI 2/5 40.00%
+    Function: condition_judge 1/5 20.00%
+    Function: calculate_calorie_intake 4/5 80.00%
+    Total: 60.0%
+File: temp.py
+  Class: IPAddress (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: is_valid 1/1 100.00%
+    Function: get_octets 1/1 100.00%
+    Function: get_binary 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: MovieTicketDB (3:0)
+    Function: __init__ 1/1 100.00%
+    Function: create_table 2/1 200.00%
+    Function: insert_ticket 2/1 200.00%
+    Function: search_tickets_by_customer 1/1 100.00%
+    Function: delete_ticket 2/1 200.00%
+    Total: 160.0%
+File: temp.py
+  Class: NumberConverter (1:0)
+    Function: decimal_to_binary staticmethod
+    Function: binary_to_decimal staticmethod
+    Function: decimal_to_octal staticmethod
+    Function: octal_to_decimal staticmethod
+    Function: decimal_to_hex staticmethod
+    Function: hex_to_decimal staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: BalancedBrackets (1:0)
+    Function: __init__ 4/4 100.00%
+    Function: clear_expr 3/4 75.00%
+    Function: check_balanced_brackets 4/4 100.00%
+    Total: 91.67%
+File: temp.py
+  Class: PersonRequest (3:0)
+    Function: __init__ 3/3 100.00%
+    Function: _validate_name 0/3 0.00%
+    Function: _validate_sex 0/3 0.00%
+    Function: _validate_phoneNumber 0/3 0.00%
+    Total: 25.0%
+File: temp.py
+  Class: ShoppingCart (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_item 1/1 100.00%
+    Function: remove_item 1/1 100.00%
+    Function: view_items 1/1 100.00%
+    Function: total_price 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: SignInSystem (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_user 1/1 100.00%
+    Function: sign_in 1/1 100.00%
+    Function: check_sign_in 1/1 100.00%
+    Function: all_signed_in 1/1 100.00%
+    Function: all_not_signed_in 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: BankAccount (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: deposit 1/1 100.00%
+    Function: withdraw 1/1 100.00%
+    Function: view_balance 1/1 100.00%
+    Function: transfer 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: SQLQueryBuilder (1:0)
+    Function: select staticmethod
+    Function: insert staticmethod
+    Function: delete staticmethod
+    Function: update staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: StudentDatabaseProcessor (3:0)
+    Function: __init__ 2/2 100.00%
+    Function: create_student_table 2/2 100.00%
+    Function: insert_student 2/2 100.00%
+    Function: search_student_by_name 1/2 50.00%
+    Function: delete_student_by_name 2/2 100.00%
+    Total: 90.0%
+File: temp.py
+  Class: TicTacToe (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: make_move 2/2 100.00%
+    Function: check_winner 1/2 50.00%
+    Function: is_board_full 1/2 50.00%
+    Total: 75.0%
+File: temp.py
+  Class: TimeUtils (4:0)
+    Function: __init__ 1/0 0.00%
+    Function: get_current_time 1/0 0.00%
+    Function: get_current_date 1/0 0.00%
+    Function: add_seconds 1/0 0.00%
+    Function: string_to_datetime 0/0 0.00%
+    Function: datetime_to_string 0/0 0.00%
+    Function: get_minutes 0/0 0.00%
+    Function: get_format_time 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: BigNumCalculator (1:0)
+    Function: add staticmethod
+    Function: subtract staticmethod
+    Function: multiply staticmethod
+    Total: 0.0%
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
+************************************
