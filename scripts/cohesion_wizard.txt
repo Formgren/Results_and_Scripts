@@ -1,0 +1,166 @@
+File: temp.py
+  Class: ChandrasekharSieve (2:0)
+    Function: __init__ 2/2 100.00%
+      Variable: n True
+      Variable: primes True
+    Function: generate_primes 1/2 50.00%
+      Variable: n True
+      Variable: primes False
+    Function: get_primes 1/2 50.00%
+      Variable: n False
+      Variable: primes True
+    Total: 66.67%
+File: temp.py
+  Class: AvgPartition (2:0)
+    Function: __init__ 2/2 100.00%
+      Variable: limit True
+      Variable: lst True
+    Function: setNum 2/2 100.00%
+      Variable: limit True
+      Variable: lst True
+    Function: get 1/2 50.00%
+      Variable: limit False
+      Variable: lst True
+    Total: 83.33%
+File: temp.py
+  Class: MovieTicketDB (4:0)
+    Function: __init__ 1/1 100.00%
+      Variable: connection True
+    Function: create_table 2/1 200.00%
+      Variable: connection True
+    Function: insert_ticket 2/1 200.00%
+      Variable: connection True
+    Function: search_tickets_by_customer 1/1 100.00%
+      Variable: connection False
+    Function: delete_ticket 2/1 200.00%
+      Variable: connection True
+    Total: 160.0%
+File: temp.py
+  Class: NLPDataProcessor2 (5:0)
+    Function: process_data 0/0 0.00%
+    Function: calculate_word_frequency 0/0 0.00%
+    Function: process 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: NumberConverter (2:0)
+    Function: decimal_to_binary staticmethod
+    Function: binary_to_decimal staticmethod
+    Function: decimal_to_octal staticmethod
+    Function: octal_to_decimal staticmethod
+    Function: decimal_to_hex staticmethod
+    Function: hex_to_decimal staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: BalancedBrackets (2:0)
+    Function: __init__ 4/4 100.00%
+      Variable: expr True
+      Variable: left_brackets True
+      Variable: right_brackets True
+      Variable: stack True
+    Function: clear_expr 3/4 75.00%
+      Variable: expr True
+      Variable: left_brackets True
+      Variable: right_brackets True
+      Variable: stack False
+    Function: check_balanced_brackets 4/4 100.00%
+      Variable: expr True
+      Variable: left_brackets True
+      Variable: right_brackets True
+      Variable: stack True
+    Total: 91.67%
+File: temp.py
+  Class: PersonRequest (2:0)
+    Function: __init__ 3/3 100.00%
+      Variable: name True
+      Variable: phoneNumber True
+      Variable: sex True
+    Function: _validate_name 0/3 0.00%
+      Variable: name False
+      Variable: phoneNumber False
+      Variable: sex False
+    Function: _validate_sex 0/3 0.00%
+      Variable: name False
+      Variable: phoneNumber False
+      Variable: sex False
+    Function: _validate_phoneNumber 0/3 0.00%
+      Variable: name False
+      Variable: phoneNumber False
+      Variable: sex False
+    Total: 25.0%
+File: temp.py
+  Class: BankAccount (2:0)
+    Function: __init__ 1/1 100.00%
+      Variable: balance True
+    Function: deposit 1/1 100.00%
+      Variable: balance True
+    Function: withdraw 1/1 100.00%
+      Variable: balance True
+    Function: view_balance 1/1 100.00%
+      Variable: balance True
+    Function: transfer 1/1 100.00%
+      Variable: balance True
+    Total: 100.0%
+File: temp.py
+  Class: SQLQueryBuilder (2:0)
+    Function: select staticmethod
+    Function: insert staticmethod
+    Function: delete staticmethod
+    Function: update staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: TimeUtils (5:0)
+    Function: __init__ 1/0 0.00%
+    Function: get_current_time 1/0 0.00%
+    Function: get_current_date 1/0 0.00%
+    Function: add_seconds 1/0 0.00%
+    Function: string_to_datetime 0/0 0.00%
+    Function: datetime_to_string 0/0 0.00%
+    Function: get_minutes 0/0 0.00%
+    Function: get_format_time 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: Warehouse (2:0)
+    Function: __init__ 2/2 100.00%
+      Variable: inventory True
+      Variable: orders True
+    Function: add_product 1/2 50.00%
+      Variable: inventory True
+      Variable: orders False
+    Function: update_product_quantity 1/2 50.00%
+      Variable: inventory True
+      Variable: orders False
+    Function: get_product_quantity 1/2 50.00%
+      Variable: inventory True
+      Variable: orders False
+    Function: create_order 2/2 100.00%
+      Variable: inventory True
+      Variable: orders True
+    Function: change_order_status 1/2 50.00%
+      Variable: inventory False
+      Variable: orders True
+    Function: track_order 1/2 50.00%
+      Variable: inventory False
+      Variable: orders True
+    Total: 64.29%
+Task ID: ClassEval_19
+************************************
+Task ID: ClassEval_6
+************************************
+Task ID: ClassEval_60
+************************************
+Task ID: ClassEval_63
+************************************
+Task ID: ClassEval_64
+************************************
+Task ID: ClassEval_7
+************************************
+Task ID: ClassEval_70
+************************************
+Task ID: ClassEval_8
+************************************
+Task ID: ClassEval_80
+************************************
+Task ID: ClassEval_87
+************************************
+Task ID: ClassEval_95
+************************************
