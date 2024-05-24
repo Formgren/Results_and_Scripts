@@ -1,0 +1,996 @@
+Class: AccessGatewayFilter (3:0)
+    Function: __init__ 0/0 0.00%
+    Function: filter 0/0 0.00%
+    Function: is_start_with 0/0 0.00%
+    Function: get_jwt_user 0/0 0.00%
+    Function: set_current_user_info_and_log 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: AreaCalculator (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: calculate_circle_area 1/1 100.00%
+    Function: calculate_sphere_area 1/1 100.00%
+    Function: calculate_cylinder_area 1/1 100.00%
+    Function: calculate_sector_area 1/1 100.00%
+    Function: calculate_annulus_area 0/1 0.00%
+    Total: 83.33%
+File: temp.py
+  Class: ArgumentParser (1:0)
+    Function: __init__ 3/2 150.00%
+    Function: parse_arguments 2/2 100.00%
+    Function: get_argument 1/2 50.00%
+    Function: add_argument 2/2 100.00%
+    Function: _convert_type 0/2 0.00%
+    Total: 80.0%
+File: temp.py
+  Class: ArrangementCalculator (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: count staticmethod
+    Function: count_all staticmethod
+    Function: select 1/1 100.00%
+    Function: select_all 1/1 100.00%
+    Function: factorial staticmethod
+    Total: 50.0%
+File: temp.py
+  Class: AssessmentSystem (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_student 1/1 100.00%
+    Function: add_course_score 1/1 100.00%
+    Function: get_gpa 1/1 100.00%
+    Function: get_all_students_with_fail_course 1/1 100.00%
+    Function: get_course_average 1/1 100.00%
+    Function: get_top_student 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: AutomaticGuitarSimulator (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: interpret 1/1 100.00%
+    Function: display 0/1 0.00%
+    Total: 66.67%
+File: temp.py
+  Class: AvgPartition (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: setNum 2/2 100.00%
+    Function: get 1/2 50.00%
+    Total: 83.33%
+File: temp.py
+  Class: BalancedBrackets (1:0)
+    Function: __init__ 4/4 100.00%
+    Function: clear_expr 3/4 75.00%
+    Function: check_balanced_brackets 3/4 75.00%
+    Total: 83.33%
+File: temp.py
+  Class: BankAccount (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: deposit 1/1 100.00%
+    Function: withdraw 1/1 100.00%
+    Function: view_balance 1/1 100.00%
+    Function: transfer 0/1 0.00%
+    Total: 80.0%
+File: temp.py
+  Class: BigNumCalculator (1:0)
+    Function: add staticmethod
+    Function: subtract staticmethod
+    Function: multiply staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: BinaryDataProcessor (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: clean_non_binary_chars 1/1 100.00%
+    Function: calculate_binary_info 1/1 100.00%
+    Function: convert_to_ascii 1/1 100.00%
+    Function: convert_to_utf8 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: BitStatusUtil (1:0)
+    Function: add staticmethod
+    Function: has staticmethod
+    Function: remove staticmethod
+    Function: check staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: BlackjackGame (2:0)
+    Function: __init__ 3/3 100.00%
+    Function: create_deck 0/3 0.00%
+    Function: calculate_hand_value 0/3 0.00%
+    Function: check_winner 0/3 0.00%
+    Total: 25.0%
+File: temp.py
+  Class: BookManagement (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_book 1/1 100.00%
+    Function: remove_book 1/1 100.00%
+    Function: view_inventory 1/1 100.00%
+    Function: view_book_quantity 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: BookManagementDB (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: create_table 2/1 200.00%
+    Function: add_book 2/1 200.00%
+    Function: remove_book 2/1 200.00%
+    Function: borrow_book 2/1 200.00%
+    Function: return_book 2/1 200.00%
+    Function: search_books 1/1 100.00%
+    Total: 171.43%
+File: temp.py
+  Class: BoyerMooreSearch (1:0)
+    Function: __init__ 4/4 100.00%
+    Function: match_in_pattern 2/4 50.00%
+    Function: mismatch_in_text 3/4 75.00%
+    Function: bad_character_heuristic 3/4 75.00%
+    Total: 75.0%
+File: temp.py
+  Class: Calculator (1:0)
+    Function: __init__ 1/0 0.00%
+    Function: calculate 0/0 0.00%
+    Function: precedence 0/0 0.00%
+    Function: apply_operator 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: CalendarUtil (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_event 1/1 100.00%
+    Function: remove_event 1/1 100.00%
+    Function: get_events 1/1 100.00%
+    Function: is_available 1/1 100.00%
+    Function: get_available_slots 0/1 0.00%
+    Function: get_upcoming_events 1/1 100.00%
+    Total: 85.71%
+File: temp.py
+  Class: CamelCaseMap (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: __getitem__ 1/1 100.00%
+    Function: __setitem__ 1/1 100.00%
+    Function: __delitem__ 1/1 100.00%
+    Function: __iter__ 1/1 100.00%
+    Function: __len__ 1/1 100.00%
+    Function: _convert_key 0/1 0.00%
+    Function: _to_camel_case staticmethod
+    Total: 75.0%
+File: temp.py
+  Class: ChandrasekharSieve (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: generate_primes 1/2 50.00%
+    Function: get_primes 1/2 50.00%
+    Total: 66.67%
+File: temp.py
+  Class: Chat (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_user 1/1 100.00%
+    Function: remove_user 1/1 100.00%
+    Function: send_message 1/1 100.00%
+    Function: get_messages 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: Classroom (2:0)
+    Function: __init__ 2/2 100.00%
+    Function: add_course 1/2 50.00%
+    Function: remove_course 1/2 50.00%
+    Function: is_free_at 1/2 50.00%
+    Function: check_course_conflict 1/2 50.00%
+    Total: 60.0%
+File: temp.py
+  Class: ClassRegistrationSystem (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: register_student 1/2 50.00%
+    Function: register_class 1/2 50.00%
+    Function: get_students_by_major 1/2 50.00%
+    Function: get_all_major 1/2 50.00%
+    Function: get_most_popular_class_in_major 2/2 100.00%
+    Total: 66.67%
+File: temp.py
+  Class: CombinationCalculator (3:0)
+    Function: __init__ 1/1 100.00%
+    Function: count staticmethod
+    Function: count_all staticmethod
+    Function: select 0/1 0.00%
+    Function: select_all 1/1 100.00%
+    Function: _select 1/1 100.00%
+    Total: 50.0%
+File: temp.py
+  Class: ComplexCalculator (1:0)
+    Function: __init__ 0/0 0.00%
+    Function: add staticmethod
+    Function: subtract staticmethod
+    Function: multiply staticmethod
+    Function: divide staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: CookiesUtil (2:0)
+    Function: __init__ 2/2 100.00%
+    Function: get_cookies 1/2 50.00%
+    Function: load_cookies 1/2 50.00%
+    Function: _save_cookies 2/2 100.00%
+    Function: set_cookies 1/2 50.00%
+    Total: 70.0%
+File: temp.py
+  Class: CSVProcessor (2:0)
+    Function: __init__ 0/0 0.00%
+    Function: read_csv 0/0 0.00%
+    Function: write_csv 0/0 0.00%
+    Function: process_csv_data 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: CurrencyConverter (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: convert 1/1 100.00%
+    Function: get_supported_currencies 1/1 100.00%
+    Function: add_currency_rate 1/1 100.00%
+    Function: update_currency_rate 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: DatabaseProcessor (3:0)
+    Function: __init__ 1/1 100.00%
+    Function: create_table 1/1 100.00%
+    Function: insert_into_database 1/1 100.00%
+    Function: search_database 1/1 100.00%
+    Function: delete_from_database 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: DataStatistics (2:0)
+    Function: mean 0/0 0.00%
+    Function: median 0/0 0.00%
+    Function: mode 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: DataStatistics2 (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: get_sum 1/1 100.00%
+    Function: get_min 1/1 100.00%
+    Function: get_max 1/1 100.00%
+    Function: get_variance 1/1 100.00%
+    Function: get_std_deviation 1/1 100.00%
+    Function: get_correlation 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: DataStatistics4 (2:0)
+    Function: correlation_coefficient staticmethod
+    Function: skewness staticmethod
+    Function: kurtosis staticmethod
+    Function: pdf staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: DecryptionUtils (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: caesar_decipher 0/1 0.00%
+    Function: vigenere_decipher 1/1 100.00%
+    Function: rail_fence_decipher 0/1 0.00%
+    Total: 50.0%
+File: temp.py
+  Class: DiscountStrategy (1:0)
+    Function: __init__ 4/3 133.33%
+    Function: total 2/3 66.67%
+    Function: due 1/3 33.33%
+    Function: FidelityPromo staticmethod
+    Function: BulkItemPromo staticmethod
+    Function: LargeOrderPromo staticmethod
+    Total: 38.89%
+File: temp.py
+  Class: DocFileHandler (4:0)
+    Function: __init__ 1/1 100.00%
+    Function: read_text 1/1 100.00%
+    Function: write_text 1/1 100.00%
+    Function: add_heading 1/1 100.00%
+    Function: add_table 1/1 100.00%
+    Function: _get_alignment_value 0/1 0.00%
+    Total: 83.33%
+File: temp.py
+  Class: EightPuzzle (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: find_blank 0/2 0.00%
+    Function: move 0/2 0.00%
+    Function: get_possible_moves 0/2 0.00%
+    Function: solve 2/2 100.00%
+    Total: 40.0%
+File: temp.py
+  Class: EmailClient (2:0)
+    Function: __init__ 3/3 100.00%
+    Function: send_to 1/3 33.33%
+    Function: fetch 1/3 33.33%
+    Function: is_full_with_one_more_email 1/3 33.33%
+    Function: get_occupied_size 1/3 33.33%
+    Function: clear_inbox 2/3 66.67%
+    Total: 50.0%
+File: temp.py
+  Class: EncryptionUtils (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: caesar_cipher 0/1 0.00%
+    Function: vigenere_cipher 1/1 100.00%
+    Function: rail_fence_cipher 0/1 0.00%
+    Total: 50.0%
+File: temp.py
+  Class: ExcelProcessor (2:0)
+    Function: __init__ 0/0 0.00%
+    Function: read_excel 0/0 0.00%
+    Function: write_excel 0/0 0.00%
+    Function: process_excel_data 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: ExpressionCalculator (4:0)
+    Function: __init__ 2/2 100.00%
+    Function: calculate 1/2 50.00%
+    Function: prepare 1/2 50.00%
+    Function: is_operator staticmethod
+    Function: compare 1/2 50.00%
+    Function: _calculate staticmethod
+    Function: transform staticmethod
+    Total: 35.71%
+File: temp.py
+  Class: FitnessTracker (1:0)
+    Function: __init__ 5/5 100.00%
+    Function: get_BMI 2/5 40.00%
+    Function: condition_judge 2/5 40.00%
+    Function: calculate_calorie_intake 4/5 80.00%
+    Total: 65.0%
+File: temp.py
+  Class: GomokuGame (1:0)
+    Function: __init__ 3/3 100.00%
+    Function: make_move 2/3 66.67%
+    Function: check_winner 2/3 66.67%
+    Function: _check_five_in_a_row 2/3 66.67%
+    Total: 75.0%
+File: temp.py
+  Class: Hotel (1:0)
+    Function: __init__ 3/3 100.00%
+    Function: book_room 2/3 66.67%
+    Function: check_in 1/3 33.33%
+    Function: check_out 1/3 33.33%
+    Function: get_available_rooms 1/3 33.33%
+    Total: 53.33%
+File: temp.py
+  Class: HRManagementSystem (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_employee 1/1 100.00%
+    Function: remove_employee 1/1 100.00%
+    Function: update_employee 0/1 0.00%
+    Function: get_employee 1/1 100.00%
+    Function: list_employees 1/1 100.00%
+    Total: 83.33%
+File: temp.py
+  Class: HtmlUtil (5:0)
+    Function: __init__ 9/9 100.00%
+    Function: __format_line_feed staticmethod
+    Function: format_line_html_text 1/9 11.11%
+    Function: extract_code_from_html_text 1/9 11.11%
+    Total: 30.56%
+File: temp.py
+  Class: ImageProcessor (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: load_image 1/1 100.00%
+    Function: save_image 1/1 100.00%
+    Function: resize_image 1/1 100.00%
+    Function: rotate_image 1/1 100.00%
+    Function: adjust_brightness 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: Interpolation (1:0)
+    Function: __init__ 0/0 0.00%
+    Function: interpolate_1d staticmethod
+    Function: interpolate_2d staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: IPAddress (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: is_valid 1/1 100.00%
+    Function: get_octets 1/1 100.00%
+    Function: get_binary 0/1 0.00%
+    Total: 75.0%
+File: temp.py
+  Class: IpUtil (2:0)
+    Function: is_valid_ipv4 staticmethod
+    Function: is_valid_ipv6 staticmethod
+    Function: get_hostname staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: JobMarketplace (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: post_job 1/2 50.00%
+    Function: remove_job 1/2 50.00%
+    Function: submit_resume 1/2 50.00%
+    Function: withdraw_resume 1/2 50.00%
+    Function: search_jobs 1/2 50.00%
+    Function: get_job_applicants 1/2 50.00%
+    Function: matches_requirements staticmethod
+    Total: 50.0%
+File: temp.py
+  Class: JSONProcessor (3:0)
+    Function: read_json 0/0 0.00%
+    Function: write_json 0/0 0.00%
+    Function: process_json 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: KappaCalculator (2:0)
+    Function: kappa staticmethod
+    Function: fleiss_kappa staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: Lemmatization (5:0)
+    Function: __init__ 1/1 100.00%
+    Function: lemmatize_sentence 1/1 100.00%
+    Function: get_pos_tag 0/1 0.00%
+    Function: remove_punctuation 0/1 0.00%
+    Total: 50.0%
+File: temp.py
+  Class: LongestWord (3:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_word 1/1 100.00%
+    Function: find_longest_word 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: MahjongConnect (2:0)
+    Function: __init__ 3/3 100.00%
+    Function: create_board 2/3 66.67%
+    Function: is_valid_move 2/3 66.67%
+    Function: has_path 2/3 66.67%
+    Function: remove_icons 1/3 33.33%
+    Function: is_game_over 1/3 33.33%
+    Total: 61.11%
+File: temp.py
+  Class: Manacher (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: palindromic_length 0/1 0.00%
+    Function: palindromic_string 1/1 100.00%
+    Total: 66.67%
+File: temp.py
+  Class: MetricsCalculator (1:0)
+    Function: __init__ 4/4 100.00%
+    Function: update 4/4 100.00%
+    Function: precision 2/4 50.00%
+    Function: recall 2/4 50.00%
+    Function: f1_score 0/4 0.00%
+    Function: accuracy 4/4 100.00%
+    Total: 66.67%
+File: temp.py
+  Class: MetricsCalculator2 (2:0)
+    Function: __init__ 0/0 0.00%
+    Function: mrr staticmethod
+    Function: map staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: MinesweeperGame (2:0)
+    Function: __init__ 5/5 100.00%
+    Function: generate_mine_sweeper_map 2/5 40.00%
+    Function: generate_playerMap 1/5 20.00%
+    Function: check_won 2/5 40.00%
+    Function: sweep 3/5 60.00%
+    Total: 52.0%
+File: temp.py
+  Class: MovieBookingSystem (3:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_movie 1/1 100.00%
+    Function: book_ticket 1/1 100.00%
+    Function: available_movies 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: MovieTicketDB (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: create_table 2/1 200.00%
+    Function: insert_ticket 2/1 200.00%
+    Function: search_tickets_by_customer 1/1 100.00%
+    Function: delete_ticket 2/1 200.00%
+    Total: 160.0%
+File: temp.py
+  Class: MusicPlayer (1:0)
+    Function: __init__ 3/3 100.00%
+    Function: add_song 1/3 33.33%
+    Function: remove_song 2/3 66.67%
+    Function: play 2/3 66.67%
+    Function: stop 1/3 33.33%
+    Function: switch_song 2/3 66.67%
+    Function: previous_song 2/3 66.67%
+    Function: set_volume 1/3 33.33%
+    Function: shuffle 1/3 33.33%
+    Total: 55.56%
+File: temp.py
+  Class: NLPDataProcessor (1:0)
+    Function: construct_stop_word_list 0/0 0.00%
+    Function: remove_stop_words 0/0 0.00%
+    Function: process 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: NLPDataProcessor2 (3:0)
+    Function: process_data 0/0 0.00%
+    Function: calculate_word_frequency 0/0 0.00%
+    Function: process 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: NumberConverter (1:0)
+    Function: decimal_to_binary staticmethod
+    Function: binary_to_decimal staticmethod
+    Function: decimal_to_octal staticmethod
+    Function: octal_to_decimal staticmethod
+    Function: decimal_to_hex staticmethod
+    Function: hex_to_decimal staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: NumberWordFormatter (1:0)
+    Function: __init__ 5/5 100.00%
+    Function: format 0/5 0.00%
+    Function: format_string 0/5 0.00%
+    Function: trans_two 3/5 60.00%
+    Function: trans_three 1/5 20.00%
+    Function: parse_more 1/5 20.00%
+    Total: 33.33%
+File: temp.py
+  Class: NumericEntityUnescaper (1:0)
+    Function: __init__ 0/0 0.00%
+    Function: replace 0/0 0.00%
+    Function: is_hex_char staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: Order (1:0)
+    Function: __init__ 3/3 100.00%
+    Function: add_dish 2/3 66.67%
+    Function: calculate_total 2/3 66.67%
+    Function: checkout 1/3 33.33%
+    Total: 66.67%
+File: temp.py
+  Class: PageUtil (1:0)
+    Function: __init__ 4/4 100.00%
+    Function: get_page 3/4 75.00%
+    Function: get_page_info 4/4 100.00%
+    Function: search 2/4 50.00%
+    Total: 81.25%
+File: temp.py
+  Class: PDFHandler (2:0)
+    Function: __init__ 2/2 100.00%
+    Function: merge_pdfs 1/2 50.00%
+    Function: extract_text_from_pdfs 1/2 50.00%
+    Total: 66.67%
+File: temp.py
+  Class: PersonRequest (1:0)
+    Function: __init__ 3/3 100.00%
+    Function: _validate_name 0/3 0.00%
+    Function: _validate_sex 0/3 0.00%
+    Function: _validate_phoneNumber 0/3 0.00%
+    Total: 25.0%
+File: temp.py
+  Class: PushBoxGame (1:0)
+    Function: __init__ 7/7 100.00%
+    Function: init_game 6/7 85.71%
+    Function: check_win 4/7 57.14%
+    Function: move 4/7 57.14%
+    Total: 75.0%
+File: temp.py
+  Class: RegexUtils (2:0)
+    Function: match 0/0 0.00%
+    Function: findall 0/0 0.00%
+    Function: split 0/0 0.00%
+    Function: sub 0/0 0.00%
+    Function: generate_email_pattern 0/0 0.00%
+    Function: generate_phone_number_pattern 0/0 0.00%
+    Function: generate_split_sentences_pattern 0/0 0.00%
+    Function: split_sentences 0/0 0.00%
+    Function: validate_phone_number 0/0 0.00%
+    Function: extract_email 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: RPGCharacter (1:0)
+    Function: __init__ 6/6 100.00%
+    Function: attack 1/6 16.67%
+    Function: heal 1/6 16.67%
+    Function: gain_exp 2/6 33.33%
+    Function: level_up 5/6 83.33%
+    Function: is_alive 1/6 16.67%
+    Total: 44.44%
+File: temp.py
+  Class: Server (1:0)
+    Function: __init__ 3/3 100.00%
+    Function: add_white_list 1/3 33.33%
+    Function: del_white_list 1/3 33.33%
+    Function: recv 2/3 66.67%
+    Function: send 1/3 33.33%
+    Function: show 2/3 66.67%
+    Total: 55.56%
+File: temp.py
+  Class: ShoppingCart (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_item 1/1 100.00%
+    Function: remove_item 1/1 100.00%
+    Function: view_items 1/1 100.00%
+    Function: total_price 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: SignInSystem (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: add_user 1/1 100.00%
+    Function: sign_in 1/1 100.00%
+    Function: check_sign_in 1/1 100.00%
+    Function: all_signed_in 1/1 100.00%
+    Function: all_not_signed_in 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: Snake (2:0)
+    Function: __init__ 7/7 100.00%
+    Function: move 6/7 85.71%
+    Function: random_food_position 5/7 71.43%
+    Function: reset 5/7 71.43%
+    Function: eat_food 2/7 28.57%
+    Total: 71.43%
+File: temp.py
+  Class: SplitSentence (2:0)
+    Function: split_sentences 0/0 0.00%
+    Function: count_words 0/0 0.00%
+    Function: process_text_file 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: SQLGenerator (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: select 1/1 100.00%
+    Function: insert 1/1 100.00%
+    Function: update 1/1 100.00%
+    Function: delete 1/1 100.00%
+    Function: select_female_under_age 0/1 0.00%
+    Function: select_by_age_range 0/1 0.00%
+    Total: 71.43%
+File: temp.py
+  Class: SQLQueryBuilder (1:0)
+    Function: select staticmethod
+    Function: insert staticmethod
+    Function: delete staticmethod
+    Function: update staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: Statistics3 (2:0)
+    Function: median staticmethod
+    Function: mode staticmethod
+    Function: correlation staticmethod
+    Function: mean staticmethod
+    Function: correlation_matrix staticmethod
+    Function: standard_deviation staticmethod
+    Function: z_score staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: StockPortfolioTracker (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: add_stock 1/2 50.00%
+    Function: remove_stock 1/2 50.00%
+    Function: buy_stock 1/2 50.00%
+    Function: sell_stock 1/2 50.00%
+    Function: calculate_portfolio_value 2/2 100.00%
+    Function: get_portfolio_summary 1/2 50.00%
+    Function: get_stock_value 0/2 0.00%
+    Total: 56.25%
+File: temp.py
+  Class: StudentDatabaseProcessor (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: create_student_table 1/1 100.00%
+    Function: insert_student 1/1 100.00%
+    Function: search_student_by_name 1/1 100.00%
+    Function: delete_student_by_name 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: TextFileProcessor (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: read_file_as_json 1/1 100.00%
+    Function: read_file 1/1 100.00%
+    Function: write_file 1/1 100.00%
+    Function: process_file 0/1 0.00%
+    Total: 80.0%
+File: temp.py
+  Class: Thermostat (2:0)
+    Function: __init__ 3/3 100.00%
+    Function: get_target_temperature 1/3 33.33%
+    Function: set_target_temperature 1/3 33.33%
+    Function: get_mode 1/3 33.33%
+    Function: set_mode 1/3 33.33%
+    Function: auto_set_mode 3/3 100.00%
+    Function: auto_check_conflict 3/3 100.00%
+    Function: simulate_operation 3/3 100.00%
+    Total: 66.67%
+File: temp.py
+  Class: TicTacToe (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: make_move 2/2 100.00%
+    Function: check_winner 1/2 50.00%
+    Function: is_board_full 1/2 50.00%
+    Total: 75.0%
+File: temp.py
+  Class: TimeUtils (3:0)
+    Function: __init__ 1/0 0.00%
+    Function: get_current_time 1/0 0.00%
+    Function: get_current_date 1/0 0.00%
+    Function: add_seconds 1/0 0.00%
+    Function: string_to_datetime 0/0 0.00%
+    Function: datetime_to_string 0/0 0.00%
+    Function: get_minutes 0/0 0.00%
+    Function: get_format_time 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: TriCalculator (2:0)
+    Function: __init__ 0/0 0.00%
+    Function: cos 0/0 0.00%
+    Function: factorial 0/0 0.00%
+    Function: taylor 0/0 0.00%
+    Function: sin 0/0 0.00%
+    Function: tan 0/0 0.00%
+    Total: 0.0%
+File: temp.py
+  Class: TwentyFourPointGame (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: _generate_cards 1/1 100.00%
+    Function: get_my_cards 1/1 100.00%
+    Function: answer 1/1 100.00%
+    Function: evaluate_expression 0/1 0.00%
+    Total: 80.0%
+File: temp.py
+  Class: URLHandler (1:0)
+    Function: __init__ 1/1 100.00%
+    Function: get_scheme 1/1 100.00%
+    Function: get_host 1/1 100.00%
+    Function: get_path 1/1 100.00%
+    Function: get_query_params 1/1 100.00%
+    Function: get_fragment 1/1 100.00%
+    Total: 100.0%
+File: temp.py
+  Class: UrlPath (2:0)
+    Function: __init__ 2/2 100.00%
+    Function: add 1/2 50.00%
+    Function: parse 2/2 100.00%
+    Function: fix_path staticmethod
+    Total: 62.5%
+File: temp.py
+  Class: UserLoginDB (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: insert_user 2/1 200.00%
+    Function: search_user_by_username 1/1 100.00%
+    Function: delete_user_by_username 2/1 200.00%
+    Function: validate_user_login 0/1 0.00%
+    Total: 120.0%
+File: temp.py
+  Class: VectorUtil (4:0)
+    Function: similarity staticmethod
+    Function: cosine_similarities staticmethod
+    Function: n_similarity staticmethod
+    Function: compute_idf_weight_dict staticmethod
+    Total: 0.0%
+File: temp.py
+  Class: VendingMachine (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: add_item 1/2 50.00%
+    Function: insert_coin 1/2 50.00%
+    Function: purchase_item 2/2 100.00%
+    Function: restock_item 1/2 50.00%
+    Function: display_items 1/2 50.00%
+    Total: 66.67%
+File: temp.py
+  Class: Warehouse (1:0)
+    Function: __init__ 2/2 100.00%
+    Function: add_product 1/2 50.00%
+    Function: update_product_quantity 1/2 50.00%
+    Function: get_product_quantity 1/2 50.00%
+    Function: create_order 1/2 50.00%
+    Function: change_order_status 1/2 50.00%
+    Function: track_order 1/2 50.00%
+    Total: 57.14%
+File: temp.py
+  Class: WeatherSystem (1:0)
+    Function: __init__ 4/4 100.00%
+    Function: query 4/4 100.00%
+    Function: set_city 1/4 25.00%
+    Function: celsius_to_fahrenheit 1/4 25.00%
+    Function: fahrenheit_to_celsius 1/4 25.00%
+    Total: 55.0%
+File: temp.py
+  Class: Words2Numbers (1:0)
+    Function: __init__ 6/6 100.00%
+    Function: text2int 3/6 50.00%
+    Function: is_valid_input 3/6 50.00%
+    Total: 66.67%
+File: temp.py
+  Class: XMLProcessor (2:0)
+    Function: __init__ 2/2 100.00%
+    Function: read_xml 2/2 100.00%
+    Function: write_xml 1/2 50.00%
+    Function: process_xml_data 1/2 50.00%
+    Function: find_element 1/2 50.00%
+    Total: 70.0%
+File: temp.py
+  Class: ZipFileProcessor (2:0)
+    Function: __init__ 1/1 100.00%
+    Function: read_zip_file 1/1 100.00%
+    Function: extract_all 1/1 100.00%
+    Function: extract_file 1/1 100.00%
+    Function: create_zip_file 0/1 0.00%
+    Total: 80.0%
+Task ID: ClassEval_0
+************************************
+Task ID: ClassEval_1
+************************************
+Task ID: ClassEval_2
+************************************
+Task ID: ClassEval_3
+************************************
+Task ID: ClassEval_4
+************************************
+Task ID: ClassEval_5
+************************************
+Task ID: ClassEval_6
+************************************
+Task ID: ClassEval_7
+************************************
+Task ID: ClassEval_8
+************************************
+Task ID: ClassEval_9
+************************************
+Task ID: ClassEval_10
+************************************
+Task ID: ClassEval_11
+************************************
+Task ID: ClassEval_12
+************************************
+Task ID: ClassEval_13
+************************************
+Task ID: ClassEval_14
+************************************
+Task ID: ClassEval_15
+************************************
+Task ID: ClassEval_16
+************************************
+Task ID: ClassEval_17
+************************************
+Task ID: ClassEval_18
+************************************
+Task ID: ClassEval_19
+************************************
+Task ID: ClassEval_20
+************************************
+Task ID: ClassEval_21
+************************************
+Task ID: ClassEval_22
+************************************
+Task ID: ClassEval_23
+************************************
+Task ID: ClassEval_24
+************************************
+Task ID: ClassEval_25
+************************************
+Task ID: ClassEval_26
+************************************
+Task ID: ClassEval_27
+************************************
+Task ID: ClassEval_28
+************************************
+Task ID: ClassEval_29
+************************************
+Task ID: ClassEval_30
+************************************
+Task ID: ClassEval_31
+************************************
+Task ID: ClassEval_32
+************************************
+Task ID: ClassEval_33
+************************************
+Task ID: ClassEval_34
+************************************
+Task ID: ClassEval_35
+************************************
+Task ID: ClassEval_36
+************************************
+Task ID: ClassEval_37
+************************************
+Task ID: ClassEval_38
+************************************
+Task ID: ClassEval_39
+************************************
+Task ID: ClassEval_40
+************************************
+Task ID: ClassEval_41
+************************************
+Task ID: ClassEval_42
+************************************
+Task ID: ClassEval_43
+************************************
+Task ID: ClassEval_44
+************************************
+Task ID: ClassEval_45
+************************************
+Task ID: ClassEval_46
+************************************
+Task ID: ClassEval_47
+************************************
+Task ID: ClassEval_48
+************************************
+Task ID: ClassEval_49
+************************************
+Task ID: ClassEval_50
+************************************
+Task ID: ClassEval_51
+************************************
+Task ID: ClassEval_52
+************************************
+Task ID: ClassEval_53
+************************************
+Task ID: ClassEval_54
+************************************
+Task ID: ClassEval_55
+************************************
+Task ID: ClassEval_56
+************************************
+Task ID: ClassEval_57
+************************************
+Task ID: ClassEval_58
+************************************
+Task ID: ClassEval_59
+************************************
+Task ID: ClassEval_60
+************************************
+Task ID: ClassEval_61
+************************************
+Task ID: ClassEval_62
+************************************
+Task ID: ClassEval_63
+************************************
+Task ID: ClassEval_64
+************************************
+Task ID: ClassEval_65
+************************************
+Task ID: ClassEval_66
+************************************
+Task ID: ClassEval_67
+************************************
+Task ID: ClassEval_68
+************************************
+Task ID: ClassEval_69
+************************************
+Task ID: ClassEval_70
+************************************
+Task ID: ClassEval_71
+************************************
+Task ID: ClassEval_72
+************************************
+Task ID: ClassEval_73
+************************************
+Task ID: ClassEval_74
+************************************
+Task ID: ClassEval_75
+************************************
+Task ID: ClassEval_76
+************************************
+Task ID: ClassEval_77
+************************************
+Task ID: ClassEval_78
+************************************
+Task ID: ClassEval_79
+************************************
+Task ID: ClassEval_80
+************************************
+Task ID: ClassEval_81
+************************************
+Task ID: ClassEval_82
+************************************
+Task ID: ClassEval_83
+************************************
+Task ID: ClassEval_84
+************************************
+Task ID: ClassEval_85
+************************************
+Task ID: ClassEval_86
+************************************
+Task ID: ClassEval_87
+************************************
+Task ID: ClassEval_88
+************************************
+Task ID: ClassEval_89
+************************************
+Task ID: ClassEval_90
+************************************
+Task ID: ClassEval_91
+************************************
+Task ID: ClassEval_92
+************************************
+Task ID: ClassEval_93
+************************************
+Task ID: ClassEval_94
+************************************
+Task ID: ClassEval_95
+************************************
+Task ID: ClassEval_96
+************************************
+Task ID: ClassEval_97
+************************************
+Task ID: ClassEval_98
+************************************
+Task ID: ClassEval_99
+************************************
