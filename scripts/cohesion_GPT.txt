@@ -1,30 +1,19 @@
 File: temp.py
   Class: AreaCalculator (4:0)
     Function: __init__ 1/1 100.00%
-      Variable: radius True
     Function: calculate_circle_area 1/1 100.00%
-      Variable: radius True
     Function: calculate_sphere_area 1/1 100.00%
-      Variable: radius True
     Function: calculate_cylinder_area 1/1 100.00%
-      Variable: radius True
     Function: calculate_sector_area 1/1 100.00%
-      Variable: radius True
     Function: calculate_annulus_area 0/1 0.00%
-      Variable: radius False
     Total: 83.33%
 File: temp.py
   Class: BinaryDataProcessor (2:0)
     Function: __init__ 1/1 100.00%
-      Variable: binary_string True
     Function: clean_non_binary_chars 1/1 100.00%
-      Variable: binary_string True
     Function: calculate_binary_info 1/1 100.00%
-      Variable: binary_string True
     Function: convert_to_ascii 1/1 100.00%
-      Variable: binary_string True
     Function: convert_to_utf8 1/1 100.00%
-      Variable: binary_string True
     Total: 100.0%
 File: temp.py
   Class: BitStatusUtil (2:0)
@@ -36,14 +25,8 @@ File: temp.py
 File: temp.py
   Class: ChandrasekharSieve (4:0)
     Function: __init__ 2/2 100.00%
-      Variable: n True
-      Variable: primes True
     Function: generate_primes 1/2 50.00%
-      Variable: n True
-      Variable: primes False
     Function: get_primes 1/2 50.00%
-      Variable: n False
-      Variable: primes True
     Total: 66.67%
 File: temp.py
   Class: ComplexCalculator (4:0)
@@ -54,6 +37,14 @@ File: temp.py
     Function: divide staticmethod
     Total: 0.0%
 File: temp.py
+  Class: DatabaseProcessor (5:0)
+    Function: __init__ 2/2 100.00%
+    Function: create_table 2/2 100.00%
+    Function: insert_into_database 2/2 100.00%
+    Function: search_database 1/2 50.00%
+    Function: delete_from_database 2/2 100.00%
+    Total: 90.0%
+File: temp.py
   Class: DataStatistics (4:0)
     Function: mean 0/0 0.00%
     Function: median 0/0 0.00%
@@ -62,53 +53,24 @@ File: temp.py
 File: temp.py
   Class: FitnessTracker (2:0)
     Function: __init__ 5/5 100.00%
-      Variable: BMI_std True
-      Variable: age True
-      Variable: height True
-      Variable: sex True
-      Variable: weight True
     Function: get_BMI 2/5 40.00%
-      Variable: BMI_std False
-      Variable: age False
-      Variable: height True
-      Variable: sex False
-      Variable: weight True
     Function: condition_judge 1/5 20.00%
-      Variable: BMI_std False
-      Variable: age False
-      Variable: height False
-      Variable: sex True
-      Variable: weight False
     Function: calculate_calorie_intake 4/5 80.00%
-      Variable: BMI_std False
-      Variable: age True
-      Variable: height True
-      Variable: sex True
-      Variable: weight True
     Total: 60.0%
 File: temp.py
   Class: IPAddress (2:0)
     Function: __init__ 1/1 100.00%
-      Variable: ip_address True
     Function: is_valid 1/1 100.00%
-      Variable: ip_address True
     Function: get_octets 1/1 100.00%
-      Variable: ip_address True
     Function: get_binary 1/1 100.00%
-      Variable: ip_address True
     Total: 100.0%
 File: temp.py
   Class: MovieTicketDB (4:0)
     Function: __init__ 1/1 100.00%
-      Variable: connection True
     Function: create_table 2/1 200.00%
-      Variable: connection True
     Function: insert_ticket 2/1 200.00%
-      Variable: connection True
     Function: search_tickets_by_customer 1/1 100.00%
-      Variable: connection False
     Function: delete_ticket 2/1 200.00%
-      Variable: connection True
     Total: 160.0%
 File: temp.py
   Class: NumberConverter (2:0)
@@ -122,80 +84,40 @@ File: temp.py
 File: temp.py
   Class: BalancedBrackets (2:0)
     Function: __init__ 4/4 100.00%
-      Variable: expr True
-      Variable: left_brackets True
-      Variable: right_brackets True
-      Variable: stack True
     Function: clear_expr 3/4 75.00%
-      Variable: expr True
-      Variable: left_brackets True
-      Variable: right_brackets True
-      Variable: stack False
     Function: check_balanced_brackets 4/4 100.00%
-      Variable: expr True
-      Variable: left_brackets True
-      Variable: right_brackets True
-      Variable: stack True
     Total: 91.67%
 File: temp.py
   Class: PersonRequest (4:0)
     Function: __init__ 3/3 100.00%
-      Variable: name True
-      Variable: phoneNumber True
-      Variable: sex True
     Function: _validate_name 0/3 0.00%
-      Variable: name False
-      Variable: phoneNumber False
-      Variable: sex False
     Function: _validate_sex 0/3 0.00%
-      Variable: name False
-      Variable: phoneNumber False
-      Variable: sex False
     Function: _validate_phoneNumber 0/3 0.00%
-      Variable: name False
-      Variable: phoneNumber False
-      Variable: sex False
     Total: 25.0%
 File: temp.py
   Class: ShoppingCart (2:0)
     Function: __init__ 1/1 100.00%
-      Variable: items True
     Function: add_item 1/1 100.00%
-      Variable: items True
     Function: remove_item 1/1 100.00%
-      Variable: items True
     Function: view_items 1/1 100.00%
-      Variable: items True
     Function: total_price 1/1 100.00%
-      Variable: items True
     Total: 100.0%
 File: temp.py
   Class: SignInSystem (2:0)
     Function: __init__ 1/1 100.00%
-      Variable: users True
     Function: add_user 1/1 100.00%
-      Variable: users True
     Function: sign_in 1/1 100.00%
-      Variable: users True
     Function: check_sign_in 1/1 100.00%
-      Variable: users True
     Function: all_signed_in 1/1 100.00%
-      Variable: users True
     Function: all_not_signed_in 1/1 100.00%
-      Variable: users True
     Total: 100.0%
 File: temp.py
   Class: BankAccount (2:0)
     Function: __init__ 1/1 100.00%
-      Variable: balance True
     Function: deposit 1/1 100.00%
-      Variable: balance True
     Function: withdraw 1/1 100.00%
-      Variable: balance True
     Function: view_balance 1/1 100.00%
-      Variable: balance True
     Function: transfer 1/1 100.00%
-      Variable: balance True
     Total: 100.0%
 File: temp.py
   Class: SQLQueryBuilder (2:0)
@@ -207,35 +129,17 @@ File: temp.py
 File: temp.py
   Class: StudentDatabaseProcessor (4:0)
     Function: __init__ 2/2 100.00%
-      Variable: connection True
-      Variable: database_name True
     Function: create_student_table 2/2 100.00%
-      Variable: connection True
-      Variable: database_name False
     Function: insert_student 2/2 100.00%
-      Variable: connection True
-      Variable: database_name False
     Function: search_student_by_name 1/2 50.00%
-      Variable: connection False
-      Variable: database_name False
     Function: delete_student_by_name 2/2 100.00%
-      Variable: connection True
-      Variable: database_name False
     Total: 90.0%
 File: temp.py
   Class: TicTacToe (2:0)
     Function: __init__ 2/2 100.00%
-      Variable: board True
-      Variable: current_player True
     Function: make_move 2/2 100.00%
-      Variable: board True
-      Variable: current_player True
     Function: check_winner 1/2 50.00%
-      Variable: board True
-      Variable: current_player False
     Function: is_board_full 1/2 50.00%
-      Variable: board True
-      Variable: current_player False
     Total: 75.0%
 File: temp.py
   Class: TimeUtils (5:0)
@@ -254,43 +158,45 @@ File: temp.py
     Function: subtract staticmethod
     Function: multiply staticmethod
     Total: 0.0%
+i: 0
 Task ID: ClassEval_1
-************************************
+i: 1
 Task ID: ClassEval_10
-************************************
+i: 2
 Task ID: ClassEval_11
-************************************
+i: 3
 Task ID: ClassEval_19
-************************************
+i: 4
 Task ID: ClassEval_24
-************************************
+i: 5
+Task ID: ClassEval_28
+i: 6
 Task ID: ClassEval_29
-************************************
+i: 7
 Task ID: ClassEval_40
-************************************
+i: 8
 Task ID: ClassEval_47
-************************************
+i: 9
 Task ID: ClassEval_60
-************************************
+i: 10
 Task ID: ClassEval_64
-************************************
+i: 11
 Task ID: ClassEval_7
-************************************
+i: 12
 Task ID: ClassEval_70
-************************************
+i: 13
 Task ID: ClassEval_75
-************************************
+i: 14
 Task ID: ClassEval_76
-************************************
+i: 15
 Task ID: ClassEval_8
-************************************
+i: 16
 Task ID: ClassEval_80
-************************************
+i: 17
 Task ID: ClassEval_83
-************************************
+i: 18
 Task ID: ClassEval_86
-************************************
+i: 19
 Task ID: ClassEval_87
-************************************
+i: 20
 Task ID: ClassEval_9
-************************************
