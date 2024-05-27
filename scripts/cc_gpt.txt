@@ -1,41 +1,39 @@
+    // 21/21 Classes = A rank
+    // 93 / 97 methods = A rank
+    // 4 / 97 methods = B rank
 temp.py
-    C 3:0 AreaCalculator - A
-    M 8:4 AreaCalculator.__init__ - A
-    M 15:4 AreaCalculator.calculate_circle_area - A
-    M 22:4 AreaCalculator.calculate_sphere_area - A
-    M 29:4 AreaCalculator.calculate_cylinder_area - A
-    M 37:4 AreaCalculator.calculate_sector_area - A
-    M 45:4 AreaCalculator.calculate_annulus_area - A
+    C 4:0 AreaCalculator - A (2)
+    M 9:4 AreaCalculator.__init__ - A (1)
+    M 16:4 AreaCalculator.calculate_circle_area - A (1)
+    M 23:4 AreaCalculator.calculate_sphere_area - A (1)
+    M 30:4 AreaCalculator.calculate_cylinder_area - A (1)
+    M 38:4 AreaCalculator.calculate_sector_area - A (1)
+    M 46:4 AreaCalculator.calculate_annulus_area - A (1)
 temp.py
-    C 1:0 BinaryDataProcessor - A
-    M 37:4 BinaryDataProcessor.convert_to_ascii - A
-    M 47:4 BinaryDataProcessor.convert_to_utf8 - A
-    M 6:4 BinaryDataProcessor.__init__ - A
-    M 13:4 BinaryDataProcessor.clean_non_binary_chars - A
-    M 23:4 BinaryDataProcessor.calculate_binary_info - A
+    C 2:0 BinaryDataProcessor - A (2)
+    M 38:4 BinaryDataProcessor.convert_to_ascii - A (2)
+    M 48:4 BinaryDataProcessor.convert_to_utf8 - A (2)
+    M 7:4 BinaryDataProcessor.__init__ - A (1)
+    M 14:4 BinaryDataProcessor.clean_non_binary_chars - A (1)
+    M 24:4 BinaryDataProcessor.calculate_binary_info - A (1)
 temp.py
-    M 46:4 BitStatusUtil.check - A
-    C 1:0 BitStatusUtil - A
-    M 7:4 BitStatusUtil.add - A
-    M 20:4 BitStatusUtil.has - A
-    M 33:4 BitStatusUtil.remove - A
+    M 47:4 BitStatusUtil.check - A (4)
+    C 2:0 BitStatusUtil - A (3)
+    M 8:4 BitStatusUtil.add - A (1)
+    M 21:4 BitStatusUtil.has - A (1)
+    M 34:4 BitStatusUtil.remove - A (1)
 temp.py
-    M 16:4 ChandrasekharSieve.generate_primes - B
-    C 3:0 ChandrasekharSieve - A
-    M 8:4 ChandrasekharSieve.__init__ - A
-    M 40:4 ChandrasekharSieve.get_primes - A
+    M 17:4 ChandrasekharSieve.generate_primes - B (6)
+    C 4:0 ChandrasekharSieve - A (4)
+    M 9:4 ChandrasekharSieve.__init__ - A (1)
+    M 41:4 ChandrasekharSieve.get_primes - A (1)
 temp.py
-    C 3:0 ComplexCalculator - A
-    M 8:4 ComplexCalculator.__init__ - A
-    M 12:4 ComplexCalculator.add - A
-    M 25:4 ComplexCalculator.subtract - A
-    M 38:4 ComplexCalculator.multiply - A
-    M 51:4 ComplexCalculator.divide - A
-temp.py
-    C 3:0 DataStatistics - A
-    M 35:4 DataStatistics.mode - A
-    M 19:4 DataStatistics.median - A
-    M 8:4 DataStatistics.mean - A
+    C 4:0 ComplexCalculator - A (2)
+    M 9:4 ComplexCalculator.__init__ - A (1)
+    M 13:4 ComplexCalculator.add - A (1)
+    M 26:4 ComplexCalculator.subtract - A (1)
+    M 39:4 ComplexCalculator.multiply - A (1)
+    M 52:4 ComplexCalculator.divide - A (1)
 temp.py
     M 30:4 DatabaseProcessor.insert_into_database - A (4)
     C 5:0 DatabaseProcessor - A (3)
@@ -44,122 +42,164 @@ temp.py
     M 18:4 DatabaseProcessor.create_table - A (1)
     M 56:4 DatabaseProcessor.delete_from_database - A (1)
 temp.py
-    M 29:4 FitnessTracker.condition_judge - B
-    C 1:0 FitnessTracker - A
-    M 53:4 FitnessTracker.calculate_calorie_intake - A
-    M 6:4 FitnessTracker.__init__ - A
-    M 19:4 FitnessTracker.get_BMI - A
+    C 4:0 DataStatistics - A (3)
+    M 36:4 DataStatistics.mode - A (3)
+    M 20:4 DataStatistics.median - A (2)
+    M 9:4 DataStatistics.mean - A (1)
 temp.py
-    M 13:4 IPAddress.is_valid - A
-    C 1:0 IPAddress - A
-    M 38:4 IPAddress.get_binary - A
-    M 28:4 IPAddress.get_octets - A
-    M 6:4 IPAddress.__init__ - A
+    M 30:4 FitnessTracker.condition_judge - B (7)
+    C 2:0 FitnessTracker - A (4)
+    M 54:4 FitnessTracker.calculate_calorie_intake - A (4)
+    M 7:4 FitnessTracker.__init__ - A (1)
+    M 20:4 FitnessTracker.get_BMI - A (1)
 temp.py
-    C 3:0 MovieTicketDB - A
-    M 8:4 MovieTicketDB.__init__ - A
-    M 17:4 MovieTicketDB.create_table - A
-    M 31:4 MovieTicketDB.insert_ticket - A
-    M 44:4 MovieTicketDB.search_tickets_by_customer - A
-    M 53:4 MovieTicketDB.delete_ticket - A
+    M 14:4 IPAddress.is_valid - A (5)
+    C 2:0 IPAddress - A (4)
+    M 39:4 IPAddress.get_binary - A (3)
+    M 29:4 IPAddress.get_octets - A (2)
+    M 7:4 IPAddress.__init__ - A (1)
 temp.py
-    C 1:0 NumberConverter - A
-    M 7:4 NumberConverter.decimal_to_binary - A
-    M 18:4 NumberConverter.binary_to_decimal - A
-    M 29:4 NumberConverter.decimal_to_octal - A
-    M 40:4 NumberConverter.octal_to_decimal - A
-    M 51:4 NumberConverter.decimal_to_hex - A
-    M 62:4 NumberConverter.hex_to_decimal - A
+    C 4:0 MovieTicketDB - A (2)
+    M 9:4 MovieTicketDB.__init__ - A (1)
+    M 18:4 MovieTicketDB.create_table - A (1)
+    M 32:4 MovieTicketDB.insert_ticket - A (1)
+    M 45:4 MovieTicketDB.search_tickets_by_customer - A (1)
+    M 54:4 MovieTicketDB.delete_ticket - A (1)
 temp.py
-    M 26:4 BalancedBrackets.check_balanced_brackets - B
-    C 1:0 BalancedBrackets - A
-    M 16:4 BalancedBrackets.clear_expr - A
-    M 6:4 BalancedBrackets.__init__ - A
+    C 2:0 NumberConverter - A (2)
+    M 8:4 NumberConverter.decimal_to_binary - A (1)
+    M 19:4 NumberConverter.binary_to_decimal - A (1)
+    M 30:4 NumberConverter.decimal_to_octal - A (1)
+    M 41:4 NumberConverter.octal_to_decimal - A (1)
+    M 52:4 NumberConverter.decimal_to_hex - A (1)
+    M 63:4 NumberConverter.hex_to_decimal - A (1)
 temp.py
-    C 3:0 PersonRequest - A
-    M 19:4 PersonRequest._validate_name - A
-    M 40:4 PersonRequest._validate_phoneNumber - A
-    M 29:4 PersonRequest._validate_sex - A
-    M 8:4 PersonRequest.__init__ - A
+    M 27:4 BalancedBrackets.check_balanced_brackets - B (6)
+    C 2:0 BalancedBrackets - A (4)
+    M 17:4 BalancedBrackets.clear_expr - A (3)
+    M 7:4 BalancedBrackets.__init__ - A (1)
 temp.py
-    C 1:0 ShoppingCart - A
-    M 22:4 ShoppingCart.remove_item - A
-    M 39:4 ShoppingCart.total_price - A
-    M 6:4 ShoppingCart.__init__ - A
-    M 12:4 ShoppingCart.add_item - A
-    M 32:4 ShoppingCart.view_items - A
+    C 4:0 PersonRequest - A (3)
+    M 20:4 PersonRequest._validate_name - A (3)
+    M 41:4 PersonRequest._validate_phoneNumber - A (3)
+    M 30:4 PersonRequest._validate_sex - A (2)
+    M 9:4 PersonRequest.__init__ - A (1)
 temp.py
-    C 1:0 SignInSystem - A
-    M 75:4 SignInSystem.all_not_signed_in - A
-    M 12:4 SignInSystem.add_user - A
-    M 29:4 SignInSystem.sign_in - A
-    M 45:4 SignInSystem.check_sign_in - A
-    M 63:4 SignInSystem.all_signed_in - A
-    M 6:4 SignInSystem.__init__ - A
+    C 2:0 ShoppingCart - A (2)
+    M 23:4 ShoppingCart.remove_item - A (2)
+    M 40:4 ShoppingCart.total_price - A (2)
+    M 7:4 ShoppingCart.__init__ - A (1)
+    M 13:4 ShoppingCart.add_item - A (1)
+    M 33:4 ShoppingCart.view_items - A (1)
 temp.py
-    C 1:0 BankAccount - A 15
-    M 23:4 BankAccount.withdraw - A
-    M 43:4 BankAccount.transfer - A
-    M 12:4 BankAccount.deposit - A
-    M 6:4 BankAccount.__init__ - A
-    M 37:4 BankAccount.view_balance - A
+    C 2:0 SignInSystem - A (3)
+    M 76:4 SignInSystem.all_not_signed_in - A (3)
+    M 13:4 SignInSystem.add_user - A (2)
+    M 30:4 SignInSystem.sign_in - A (2)
+    M 46:4 SignInSystem.check_sign_in - A (2)
+    M 64:4 SignInSystem.all_signed_in - A (2)
+    M 7:4 SignInSystem.__init__ - A (1)
 temp.py
-    C 1:0 SQLQueryBuilder - A
-    M 54:4 SQLQueryBuilder.update - A
-    M 7:4 SQLQueryBuilder.select - A
-    M 38:4 SQLQueryBuilder.delete - A
-    M 24:4 SQLQueryBuilder.insert - A
+    C 2:0 BankAccount - A (3)
+    M 24:4 BankAccount.withdraw - A (3)
+    M 44:4 BankAccount.transfer - A (3)
+    M 13:4 BankAccount.deposit - A (2)
+    M 7:4 BankAccount.__init__ - A (1)
+    M 38:4 BankAccount.view_balance - A (1)
 temp.py
-    C 3:0 StudentDatabaseProcessor - A
-    M 8:4 StudentDatabaseProcessor.__init__ - A
-    M 17:4 StudentDatabaseProcessor.create_student_table - A
-    M 33:4 StudentDatabaseProcessor.insert_student - A
-    M 44:4 StudentDatabaseProcessor.search_student_by_name - A
-    M 55:4 StudentDatabaseProcessor.delete_student_by_name - A
+    C 2:0 SQLQueryBuilder - A (4)
+    M 55:4 SQLQueryBuilder.update - A (4)
+    M 8:4 SQLQueryBuilder.select - A (3)
+    M 39:4 SQLQueryBuilder.delete - A (3)
+    M 25:4 SQLQueryBuilder.insert - A (2)
 temp.py
-    M 32:4 TicTacToe.check_winner - B
-    C 1:0 TicTacToe - A
-    M 6:4 TicTacToe.__init__ - A
-    M 13:4 TicTacToe.make_move - A
-    M 53:4 TicTacToe.is_board_full - A
+    C 4:0 StudentDatabaseProcessor - A (2)
+    M 9:4 StudentDatabaseProcessor.__init__ - A (1)
+    M 18:4 StudentDatabaseProcessor.create_student_table - A (1)
+    M 34:4 StudentDatabaseProcessor.insert_student - A (1)
+    M 45:4 StudentDatabaseProcessor.search_student_by_name - A (1)
+    M 56:4 StudentDatabaseProcessor.delete_student_by_name - A (1)
 temp.py
-    C 4:0 TimeUtils - A
-    M 9:4 TimeUtils.__init__ - A
-    M 15:4 TimeUtils.get_current_time - A
-    M 25:4 TimeUtils.get_current_date - A
-    M 34:4 TimeUtils.add_seconds - A
-    M 45:4 TimeUtils.string_to_datetime - A
-    M 55:4 TimeUtils.datetime_to_string - A
-    M 65:4 TimeUtils.get_minutes - A
-    M 77:4 TimeUtils.get_format_time - A
+    M 33:4 TicTacToe.check_winner - B (6)
+    C 2:0 TicTacToe - A (5)
+    M 7:4 TicTacToe.__init__ - A (3)
+    M 14:4 TicTacToe.make_move - A (3)
+    M 54:4 TicTacToe.is_board_full - A (3)
 temp.py
-    C 1:0 BigNumCalculator - A
-    M 7:4 BigNumCalculator.add - A
-    M 20:4 BigNumCalculator.subtract - A
-    M 33:4 BigNumCalculator.multiply - A
-
-
-
-    // 21/21 Classes = A rank
-    // 93 / 97 methods = A rank
-    // 4 / 97 methods = B rank
+    C 5:0 TimeUtils - A (2)
+    M 10:4 TimeUtils.__init__ - A (1)
+    M 16:4 TimeUtils.get_current_time - A (1)
+    M 26:4 TimeUtils.get_current_date - A (1)
+    M 35:4 TimeUtils.add_seconds - A (1)
+    M 46:4 TimeUtils.string_to_datetime - A (1)
+    M 56:4 TimeUtils.datetime_to_string - A (1)
+    M 66:4 TimeUtils.get_minutes - A (1)
+    M 78:4 TimeUtils.get_format_time - A (1)
+temp.py
+    C 2:0 BigNumCalculator - A (2)
+    M 8:4 BigNumCalculator.add - A (1)
+    M 21:4 BigNumCalculator.subtract - A (1)
+    M 34:4 BigNumCalculator.multiply - A (1)
+i: 0
+Task ID: ClassEval_1
 ************************************
+i: 1
+Task ID: ClassEval_10
 ************************************
+i: 2
+Task ID: ClassEval_11
 ************************************
+i: 3
+Task ID: ClassEval_19
 ************************************
+i: 4
+Task ID: ClassEval_24
 ************************************
+i: 5
+Task ID: ClassEval_28
 ************************************
+i: 6
+Task ID: ClassEval_29
 ************************************
+i: 7
+Task ID: ClassEval_40
 ************************************
+i: 8
+Task ID: ClassEval_47
 ************************************
+i: 9
+Task ID: ClassEval_60
 ************************************
+i: 10
+Task ID: ClassEval_64
 ************************************
+i: 11
+Task ID: ClassEval_7
 ************************************
+i: 12
+Task ID: ClassEval_70
 ************************************
+i: 13
+Task ID: ClassEval_75
 ************************************
+i: 14
+Task ID: ClassEval_76
 ************************************
+i: 15
+Task ID: ClassEval_8
 ************************************
+i: 16
+Task ID: ClassEval_80
 ************************************
+i: 17
+Task ID: ClassEval_83
 ************************************
+i: 18
+Task ID: ClassEval_86
 ************************************
+i: 19
+Task ID: ClassEval_87
+************************************
+i: 20
+Task ID: ClassEval_9
 ************************************

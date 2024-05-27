@@ -1,797 +1,697 @@
 temp.py
-    M 6:4 AccessGatewayFilter.filter - A
-    C 3:0 AccessGatewayFilter - A
-    M 19:4 AccessGatewayFilter.is_start_with - A
-    M 25:4 AccessGatewayFilter.get_jwt_user - A
-    M 4:4 AccessGatewayFilter.__init__ - A
-    M 34:4 AccessGatewayFilter.set_current_user_info_and_log - A
-temp.py
-    C 2:0 AreaCalculator - A
-    M 3:4 AreaCalculator.__init__ - A
-    M 5:4 AreaCalculator.calculate_circle_area - A
-    M 7:4 AreaCalculator.calculate_sphere_area - A
-    M 9:4 AreaCalculator.calculate_cylinder_area - A
-    M 11:4 AreaCalculator.calculate_sector_area - A
-    M 13:4 AreaCalculator.calculate_annulus_area - A
-temp.py
-    M 7:4 ArgumentParser.parse_arguments - B
-    C 1:0 ArgumentParser - A
-    M 32:4 ArgumentParser.add_argument - A
-    M 37:4 ArgumentParser._convert_type - A
-    M 2:4 ArgumentParser.__init__ - A
-    M 29:4 ArgumentParser.get_argument - A
-temp.py
-    C 2:0 ArrangementCalculator - A
-    M 6:4 ArrangementCalculator.count - A
-    M 17:4 ArrangementCalculator.select - A
-    M 12:4 ArrangementCalculator.count_all - A
-    M 24:4 ArrangementCalculator.select_all - A
-    M 30:4 ArrangementCalculator.factorial - A
-    M 3:4 ArrangementCalculator.__init__ - A
-temp.py
-    M 27:4 AssessmentSystem.get_course_average - A
-    C 1:0 AssessmentSystem - A
-    M 18:4 AssessmentSystem.get_all_students_with_fail_course - A
-    M 38:4 AssessmentSystem.get_top_student - A
-    M 12:4 AssessmentSystem.get_gpa - A
-    M 8:4 AssessmentSystem.add_course_score - A
-    M 2:4 AssessmentSystem.__init__ - A
-    M 5:4 AssessmentSystem.add_student - A
-temp.py
-    M 5:4 AutomaticGuitarSimulator.interpret - B
-    C 1:0 AutomaticGuitarSimulator - A
-    M 2:4 AutomaticGuitarSimulator.__init__ - A
-    M 25:4 AutomaticGuitarSimulator.display - A
-temp.py
-    C 1:0 AvgPartition - A
-    M 12:4 AvgPartition.get - A
-    M 2:4 AvgPartition.__init__ - A
-    M 6:4 AvgPartition.setNum - A
-temp.py
-    M 11:4 BalancedBrackets.check_balanced_brackets - B
-    C 1:0 BalancedBrackets - B
-    M 8:4 BalancedBrackets.clear_expr - A
-    M 2:4 BalancedBrackets.__init__ - A
-temp.py
-    M 11:4 BankAccount.withdraw - A
-    C 1:0 BankAccount - A
-    M 5:4 BankAccount.deposit - A
-    M 2:4 BankAccount.__init__ - A
-    M 19:4 BankAccount.view_balance - A
-    M 22:4 BankAccount.transfer - A
-temp.py
-    M 22:4 BigNumCalculator.subtract - B
-    C 1:0 BigNumCalculator - B
-    M 62:4 BigNumCalculator.multiply - A
-    M 3:4 BigNumCalculator.add - A
-temp.py
-    C 1:0 BinaryDataProcessor - A
-    M 23:4 BinaryDataProcessor.convert_to_ascii - A
-    M 32:4 BinaryDataProcessor.convert_to_utf8 - A
-    M 2:4 BinaryDataProcessor.__init__ - A
-    M 6:4 BinaryDataProcessor.clean_non_binary_chars - A
-    M 9:4 BinaryDataProcessor.calculate_binary_info - A
-temp.py
-    M 20:4 BitStatusUtil.check - A
-    C 1:0 BitStatusUtil - A
-    M 13:4 BitStatusUtil.remove - A
-    M 3:4 BitStatusUtil.add - A
-    M 8:4 BitStatusUtil.has - A
-temp.py
-    M 16:4 BlackjackGame.calculate_hand_value - B
-    M 32:4 BlackjackGame.check_winner - B
-    C 2:0 BlackjackGame - A
-    M 7:4 BlackjackGame.create_deck - A
-    M 3:4 BlackjackGame.__init__ - A
-temp.py
-    M 11:4 BookManagement.remove_book - A
-    C 1:0 BookManagement - A
-    M 5:4 BookManagement.add_book - A
-    M 21:4 BookManagement.view_book_quantity - A
-    M 2:4 BookManagement.__init__ - A
-    M 18:4 BookManagement.view_inventory - A
-temp.py
-    C 2:0 BookManagementDB - A
-    M 3:4 BookManagementDB.__init__ - A
-    M 7:4 BookManagementDB.create_table - A
-    M 17:4 BookManagementDB.add_book - A
-    M 23:4 BookManagementDB.remove_book - A
-    M 28:4 BookManagementDB.borrow_book - A
-    M 33:4 BookManagementDB.return_book - A
-    M 38:4 BookManagementDB.search_books - A
-temp.py
-    C 1:0 BoyerMooreSearch - A
-    M 6:4 BoyerMooreSearch.match_in_pattern - A
-    M 12:4 BoyerMooreSearch.mismatch_in_text - A
-    M 18:4 BoyerMooreSearch.bad_character_heuristic - A
-    M 2:4 BoyerMooreSearch.__init__ - A
-temp.py
-    M 11:4 Calculator.calculate - C
-    C 1:0 Calculator - B
-    M 59:4 Calculator.apply_operator - A
-    M 2:4 Calculator.__init__ - A
-    M 49:4 Calculator.precedence - A
-temp.py
-    M 16:4 CalendarUtil.is_available - A
-    M 31:4 CalendarUtil.get_upcoming_events - A
-    C 2:0 CalendarUtil - A
-    M 10:4 CalendarUtil.get_events - A
-    M 21:4 CalendarUtil.get_available_slots - A
-    M 7:4 CalendarUtil.remove_event - A
-    M 3:4 CalendarUtil.__init__ - A
-    M 5:4 CalendarUtil.add_event - A
-temp.py
-    C 1:0 CamelCaseMap - A
-    M 20:4 CamelCaseMap._convert_key - A
-    M 26:4 CamelCaseMap._to_camel_case - A
-    M 2:4 CamelCaseMap.__init__ - A
-    M 5:4 CamelCaseMap.__getitem__ - A
-    M 8:4 CamelCaseMap.__setitem__ - A
-    M 11:4 CamelCaseMap.__delitem__ - A
-    M 14:4 CamelCaseMap.__iter__ - A
-    M 17:4 CamelCaseMap.__len__ - A
-temp.py
-    M 6:4 ChandrasekharSieve.generate_primes - B
-    C 1:0 ChandrasekharSieve - A
-    M 2:4 ChandrasekharSieve.__init__ - A
-    M 27:4 ChandrasekharSieve.get_primes - A
-temp.py
-    C 2:0 Chat - A
-    M 17:4 Chat.send_message - A
-    M 5:4 Chat.add_user - A
-    M 11:4 Chat.remove_user - A
-    M 30:4 Chat.get_messages - A
-    M 3:4 Chat.__init__ - A
-temp.py
-    M 19:4 Classroom.check_course_conflict - B
-    C 2:0 Classroom - A
-    M 12:4 Classroom.is_free_at - A
-    M 6:4 Classroom.add_course - A
-    M 9:4 Classroom.remove_course - A
-    M 3:4 Classroom.__init__ - A
-temp.py
-    C 1:0 ClassRegistrationSystem - A
-    M 21:4 ClassRegistrationSystem.get_students_by_major - A
-    M 28:4 ClassRegistrationSystem.get_all_major - A
-    M 35:4 ClassRegistrationSystem.get_most_popular_class_in_major - A
-    M 7:4 ClassRegistrationSystem.register_student - A
-    M 14:4 ClassRegistrationSystem.register_class - A
-    M 3:4 ClassRegistrationSystem.__init__ - A
-temp.py
-    M 12:4 CombinationCalculator.count_all - A
-    C 3:0 CombinationCalculator - A
-    M 7:4 CombinationCalculator.count - A
-    M 25:4 CombinationCalculator._select - A
-    M 20:4 CombinationCalculator.select_all - A
-    M 4:4 CombinationCalculator.__init__ - A
-    M 16:4 CombinationCalculator.select - A
-temp.py
-    C 1:0 ComplexCalculator - A
-    M 2:4 ComplexCalculator.__init__ - A
-    M 6:4 ComplexCalculator.add - A
-    M 13:4 ComplexCalculator.subtract - A
-    M 19:4 ComplexCalculator.multiply - A
-    M 25:4 ComplexCalculator.divide - A
-temp.py
-    C 2:0 CookiesUtil - A
-    M 9:4 CookiesUtil.load_cookies - A
-    M 16:4 CookiesUtil._save_cookies - A
-    M 23:4 CookiesUtil.set_cookies - A
-    M 3:4 CookiesUtil.__init__ - A
-    M 6:4 CookiesUtil.get_cookies - A
-temp.py
-    C 2:0 CSVProcessor - A
-    M 21:4 CSVProcessor.process_csv_data - A
-    M 5:4 CSVProcessor.read_csv - A
-    M 13:4 CSVProcessor.write_csv - A
-    M 3:4 CSVProcessor.__init__ - A
-temp.py
-    M 13:4 CurrencyConverter.convert - A
-    C 1:0 CurrencyConverter - A
-    M 29:4 CurrencyConverter.add_currency_rate - A
-    M 34:4 CurrencyConverter.update_currency_rate - A
-    M 2:4 CurrencyConverter.__init__ - A
-    M 26:4 CurrencyConverter.get_supported_currencies - A
-temp.py
-    C 3:0 DatabaseProcessor - A
-    M 13:4 DatabaseProcessor.insert_into_database - A
-    M 21:4 DatabaseProcessor.search_database - A
-    M 4:4 DatabaseProcessor.__init__ - A
-    M 6:4 DatabaseProcessor.create_table - A
-    M 31:4 DatabaseProcessor.delete_from_database - A
-temp.py
-    C 2:0 DataStatistics - A
-    M 14:4 DataStatistics.mode - A
-    M 5:4 DataStatistics.median - A
-    M 3:4 DataStatistics.mean - A
-temp.py
-    C 2:0 DataStatistics2 - A
-    M 3:4 DataStatistics2.__init__ - A
-    M 5:4 DataStatistics2.get_sum - A
-    M 7:4 DataStatistics2.get_min - A
-    M 9:4 DataStatistics2.get_max - A
-    M 11:4 DataStatistics2.get_variance - A
-    M 13:4 DataStatistics2.get_std_deviation - A
-    M 15:4 DataStatistics2.get_correlation - A
-temp.py
-    C 2:0 DataStatistics4 - A
-    M 4:4 DataStatistics4.correlation_coefficient - A
-    M 22:4 DataStatistics4.kurtosis - A
-    M 13:4 DataStatistics4.skewness - A
-    M 34:4 DataStatistics4.pdf - A
-temp.py
-    M 32:4 DecryptionUtils.rail_fence_decipher - C
-    C 1:0 DecryptionUtils - B
-    M 5:4 DecryptionUtils.caesar_decipher - A
-    M 19:4 DecryptionUtils.vigenere_decipher - A
-    M 2:4 DecryptionUtils.__init__ - A
-temp.py
-    C 1:0 DiscountStrategy - A
-    M 24:4 DiscountStrategy.BulkItemPromo - A
-    M 32:4 DiscountStrategy.LargeOrderPromo - A
-    M 8:4 DiscountStrategy.total - A
-    M 12:4 DiscountStrategy.due - A
-    M 20:4 DiscountStrategy.FidelityPromo - A
-    M 2:4 DiscountStrategy.__init__ - A
-temp.py
-    M 34:4 DocFileHandler.add_table - A
-    C 4:0 DocFileHandler - A
-    M 7:4 DocFileHandler.read_text - A
-    M 13:4 DocFileHandler.write_text - A
-    M 26:4 DocFileHandler.add_heading - A
-    M 5:4 DocFileHandler.__init__ - A
-    M 45:4 DocFileHandler._get_alignment_value - A
-temp.py
-    M 12:4 EightPuzzle.move - B
-    C 1:0 EightPuzzle - A
-    M 27:4 EightPuzzle.get_possible_moves - A
-    M 42:4 EightPuzzle.solve - A
-    M 6:4 EightPuzzle.find_blank - A
-    M 2:4 EightPuzzle.__init__ - A
-temp.py
-    M 25:4 EmailClient.fetch - A
-    M 42:4 EmailClient.clear_inbox - A
-    C 2:0 EmailClient - A
-    M 8:4 EmailClient.send_to - A
-    M 33:4 EmailClient.is_full_with_one_more_email - A
-    M 37:4 EmailClient.get_occupied_size - A
-    M 3:4 EmailClient.__init__ - A
-temp.py
-    M 32:4 EncryptionUtils.rail_fence_cipher - B
-    C 1:0 EncryptionUtils - A
-    M 5:4 EncryptionUtils.caesar_cipher - A
-    M 19:4 EncryptionUtils.vigenere_cipher - A
-    M 2:4 EncryptionUtils.__init__ - A
-temp.py
-    M 27:4 ExcelProcessor.process_excel_data - A
-    C 2:0 ExcelProcessor - A
-    M 5:4 ExcelProcessor.read_excel - A
-    M 16:4 ExcelProcessor.write_excel - A
-    M 3:4 ExcelProcessor.__init__ - A
-temp.py
-    M 25:4 ExpressionCalculator.prepare - C
-    M 76:4 ExpressionCalculator.transform - B
-    C 4:0 ExpressionCalculator - B
-    M 62:4 ExpressionCalculator._calculate - B
-    M 8:4 ExpressionCalculator.calculate - A
-    M 55:4 ExpressionCalculator.compare - A
-    M 5:4 ExpressionCalculator.__init__ - A
-    M 53:4 ExpressionCalculator.is_operator - A
-temp.py
-    M 15:4 FitnessTracker.condition_judge - A
-    M 31:4 FitnessTracker.calculate_calorie_intake - A
-    C 1:0 FitnessTracker - A
-    M 2:4 FitnessTracker.__init__ - A
-    M 12:4 FitnessTracker.get_BMI - A
-temp.py
-    M 14:4 GomokuGame.check_winner - B
-    C 1:0 GomokuGame - A
-    M 24:4 GomokuGame._check_five_in_a_row - A
-    M 2:4 GomokuGame.__init__ - A
-    M 7:4 GomokuGame.make_move - A
-temp.py
-    M 11:4 Hotel.book_room - A
-    M 28:4 Hotel.check_in - A
-    C 1:0 Hotel - A
-    M 42:4 Hotel.check_out - A
-    M 2:4 Hotel.__init__ - A
-    M 48:4 Hotel.get_available_rooms - A
-temp.py
-    M 24:4 HRManagementSystem.update_employee - A
-    M 42:4 HRManagementSystem.list_employees - A
-    C 1:0 HRManagementSystem - A
-    M 5:4 HRManagementSystem.add_employee - A
-    M 17:4 HRManagementSystem.remove_employee - A
-    M 36:4 HRManagementSystem.get_employee - A
-    M 2:4 HRManagementSystem.__init__ - A
-temp.py
-    M 19:4 HtmlUtil.format_line_html_text - C
-    C 5:0 HtmlUtil - B
-    M 51:4 HtmlUtil.extract_code_from_html_text - A
-    M 6:4 HtmlUtil.__init__ - A
-    M 17:4 HtmlUtil.__format_line_feed - A
-temp.py
-    C 2:0 ImageProcessor - A
-    M 7:4 ImageProcessor.save_image - A
-    M 10:4 ImageProcessor.resize_image - A
-    M 13:4 ImageProcessor.rotate_image - A
-    M 16:4 ImageProcessor.adjust_brightness - A
-    M 3:4 ImageProcessor.__init__ - A
-    M 5:4 ImageProcessor.load_image - A
-temp.py
-    M 17:4 Interpolation.interpolate_2d - B
-    C 1:0 Interpolation - A
-    M 6:4 Interpolation.interpolate_1d - A
-    M 2:4 Interpolation.__init__ - A
-temp.py
-    M 5:4 IPAddress.is_valid - B
-    C 1:0 IPAddress - A
-    M 20:4 IPAddress.get_binary - A
-    M 14:4 IPAddress.get_octets - A
-    M 2:4 IPAddress.__init__ - A
-temp.py
-    C 2:0 IpUtil - A
-    M 4:4 IpUtil.is_valid_ipv4 - A
-    M 11:4 IpUtil.is_valid_ipv6 - A
-    M 18:4 IpUtil.get_hostname - A
-temp.py
-    M 21:4 JobMarketplace.search_jobs - A
-    C 1:0 JobMarketplace - A
-    M 28:4 JobMarketplace.get_job_applicants - A
-    M 36:4 JobMarketplace.matches_requirements - A
-    M 2:4 JobMarketplace.__init__ - A
-    M 6:4 JobMarketplace.post_job - A
-    M 11:4 JobMarketplace.remove_job - A
-    M 14:4 JobMarketplace.submit_resume - A
-    M 18:4 JobMarketplace.withdraw_resume - A
-temp.py
-    C 3:0 JSONProcessor - A
-    M 20:4 JSONProcessor.process_json - A
-    M 4:4 JSONProcessor.read_json - A
-    M 13:4 JSONProcessor.write_json - A
-temp.py
-    C 2:0 KappaCalculator - A
-    M 17:4 KappaCalculator.fleiss_kappa - A
-    M 4:4 KappaCalculator.kappa - A
-temp.py
-    M 8:4 Lemmatization.lemmatize_sentence - A
-    C 5:0 Lemmatization - A
-    M 24:4 Lemmatization.get_pos_tag - A
-    M 6:4 Lemmatization.__init__ - A
-    M 32:4 Lemmatization.remove_punctuation - A
-temp.py
-    M 8:4 LongestWord.find_longest_word - A
-    C 3:0 LongestWord - A
-    M 4:4 LongestWord.__init__ - A
-    M 6:4 LongestWord.add_word - A
-temp.py
-    M 28:4 MahjongConnect.has_path - B
-    M 10:4 MahjongConnect.is_valid_move - B
-    C 2:0 MahjongConnect - A
-    M 51:4 MahjongConnect.is_game_over - A
-    M 7:4 MahjongConnect.create_board - A
-    M 3:4 MahjongConnect.__init__ - A
-    M 46:4 MahjongConnect.remove_icons - A
-temp.py
-    M 12:4 Manacher.palindromic_string - B
-    C 1:0 Manacher - A
-    M 5:4 Manacher.palindromic_length - A
-    M 2:4 Manacher.__init__ - A
-temp.py
-    M 8:4 MetricsCalculator.update - B
-    C 1:0 MetricsCalculator - A
-    M 19:4 MetricsCalculator.precision - A
-    M 25:4 MetricsCalculator.recall - A
-    M 31:4 MetricsCalculator.f1_score - A
-    M 39:4 MetricsCalculator.accuracy - A
-    M 2:4 MetricsCalculator.__init__ - A
-temp.py
-    M 6:4 MetricsCalculator2.mrr - C
-    M 42:4 MetricsCalculator2.map - C
-    C 2:0 MetricsCalculator2 - B
-    M 3:4 MetricsCalculator2.__init__ - A
-temp.py
-    M 9:4 MinesweeperGame.generate_mine_sweeper_map - F
-    C 2:0 MinesweeperGame - C
-    M 46:4 MinesweeperGame.check_won - A
-    M 43:4 MinesweeperGame.generate_playerMap - A
-    M 53:4 MinesweeperGame.sweep - A
-    M 3:4 MinesweeperGame.__init__ - A
-temp.py
-    M 15:4 MovieBookingSystem.book_ticket - A
-    C 3:0 MovieBookingSystem - A
-    M 25:4 MovieBookingSystem.available_movies - A
-    M 4:4 MovieBookingSystem.__init__ - A
-    M 6:4 MovieBookingSystem.add_movie - A
-temp.py
-    C 2:0 MovieTicketDB - A
-    M 3:4 MovieTicketDB.__init__ - A
-    M 7:4 MovieTicketDB.create_table - A
-    M 18:4 MovieTicketDB.insert_ticket - A
-    M 24:4 MovieTicketDB.search_tickets_by_customer - A
-    M 30:4 MovieTicketDB.delete_ticket - A
-temp.py
-    M 16:4 MusicPlayer.play - A
-    C 1:0 MusicPlayer - A
-    M 10:4 MusicPlayer.remove_song - A
-    M 29:4 MusicPlayer.switch_song - A
-    M 40:4 MusicPlayer.previous_song - A
-    M 22:4 MusicPlayer.stop - A
-    M 51:4 MusicPlayer.set_volume - A
-    M 57:4 MusicPlayer.shuffle - A
-    M 2:4 MusicPlayer.__init__ - A
-    M 7:4 MusicPlayer.add_song - A
-temp.py
-    M 7:4 NLPDataProcessor.remove_stop_words - A
-    C 1:0 NLPDataProcessor - A
-    M 3:4 NLPDataProcessor.construct_stop_word_list - A
-    M 17:4 NLPDataProcessor.process - A
-temp.py
-    C 3:0 NLPDataProcessor2 - A
-    M 4:4 NLPDataProcessor2.process_data - A
-    M 13:4 NLPDataProcessor2.calculate_word_frequency - A
-    M 20:4 NLPDataProcessor2.process - A
-temp.py
-    C 1:0 NumberConverter - A
-    M 3:4 NumberConverter.decimal_to_binary - A
-    M 8:4 NumberConverter.binary_to_decimal - A
-    M 13:4 NumberConverter.decimal_to_octal - A
-    M 18:4 NumberConverter.octal_to_decimal - A
-    M 23:4 NumberConverter.decimal_to_hex - A
-    M 28:4 NumberConverter.hex_to_decimal - A
-temp.py
-    M 17:4 NumberWordFormatter.format_string - B
-    C 1:0 NumberWordFormatter - A
-    M 41:4 NumberWordFormatter.trans_two - A
-    M 52:4 NumberWordFormatter.trans_three - A
-    M 11:4 NumberWordFormatter.format - A
-    M 2:4 NumberWordFormatter.__init__ - A
-    M 60:4 NumberWordFormatter.parse_more - A
-temp.py
-    M 5:4 NumericEntityUnescaper.replace - C
-    C 1:0 NumericEntityUnescaper - B
-    M 43:4 NumericEntityUnescaper.is_hex_char - A
-    M 2:4 NumericEntityUnescaper.__init__ - A
-temp.py
-    M 12:4 Order.add_dish - A
-    C 1:0 Order - A
-    M 23:4 Order.calculate_total - A
-    M 29:4 Order.checkout - A
-    M 3:4 Order.__init__ - A
-temp.py
-    C 1:0 PageUtil - A
-    M 8:4 PageUtil.get_page - A
-    M 16:4 PageUtil.get_page_info - A
-    M 35:4 PageUtil.search - A
-    M 2:4 PageUtil.__init__ - A
-temp.py
-    C 2:0 PDFHandler - A
-    M 7:4 PDFHandler.merge_pdfs - A
-    M 19:4 PDFHandler.extract_text_from_pdfs - A
-    M 3:4 PDFHandler.__init__ - A
-temp.py
-    M 19:4 PersonRequest._validate_phoneNumber - A
-    C 1:0 PersonRequest - A
-    M 7:4 PersonRequest._validate_name - A
-    M 14:4 PersonRequest._validate_sex - A
-    M 2:4 PersonRequest.__init__ - A
-temp.py
-    M 34:4 PushBoxGame.move - B
-    C 1:0 PushBoxGame - B
-    M 13:4 PushBoxGame.init_game - B
-    M 25:4 PushBoxGame.check_win - A
-    M 2:4 PushBoxGame.__init__ - A
-temp.py
-    C 2:0 RegexUtils - A
-    M 3:4 RegexUtils.match - A
-    M 9:4 RegexUtils.findall - A
-    M 11:4 RegexUtils.split - A
-    M 13:4 RegexUtils.sub - A
-    M 15:4 RegexUtils.generate_email_pattern - A
-    M 18:4 RegexUtils.generate_phone_number_pattern - A
-    M 21:4 RegexUtils.generate_split_sentences_pattern - A
-    M 24:4 RegexUtils.split_sentences - A
-    M 27:4 RegexUtils.validate_phone_number - A
-    M 30:4 RegexUtils.extract_email - A
-temp.py
-    M 20:4 RPGCharacter.gain_exp - A
-    C 1:0 RPGCharacter - A
-    M 14:4 RPGCharacter.heal - A
-    M 29:4 RPGCharacter.level_up - A
-    M 2:4 RPGCharacter.__init__ - A
-    M 10:4 RPGCharacter.attack - A
-    M 38:4 RPGCharacter.is_alive - A
-temp.py
-    M 22:4 Server.recv - A
-    C 1:0 Server - A
-    M 33:4 Server.send - A
-    M 38:4 Server.show - A
-    M 8:4 Server.add_white_list - A
-    M 15:4 Server.del_white_list - A
-    M 3:4 Server.__init__ - A
-temp.py
-    C 1:0 ShoppingCart - A
-    M 5:4 ShoppingCart.add_item - A
-    M 11:4 ShoppingCart.remove_item - A
-    M 20:4 ShoppingCart.total_price - A
-    M 2:4 ShoppingCart.__init__ - A
-    M 17:4 ShoppingCart.view_items - A
-temp.py
-    C 1:0 SignInSystem - A
-    M 19:4 SignInSystem.check_sign_in - A
-    M 34:4 SignInSystem.all_not_signed_in - A
-    M 5:4 SignInSystem.add_user - A
-    M 12:4 SignInSystem.sign_in - A
-    M 28:4 SignInSystem.all_signed_in - A
-    M 2:4 SignInSystem.__init__ - A
-temp.py
-    M 11:4 Snake.move - A
-    C 2:0 Snake - A
-    M 26:4 Snake.random_food_position - A
-    M 3:4 Snake.__init__ - A
-    M 30:4 Snake.reset - A
-    M 35:4 Snake.eat_food - A
-temp.py
-    C 2:0 SplitSentence - A
-    M 10:4 SplitSentence.process_text_file - A
-    M 3:4 SplitSentence.split_sentences - A
-    M 6:4 SplitSentence.count_words - A
-temp.py
-    M 5:4 SQLGenerator.select - A
-    C 1:0 SQLGenerator - A
-    M 15:4 SQLGenerator.insert - A
-    M 21:4 SQLGenerator.update - A
-    M 2:4 SQLGenerator.__init__ - A
-    M 26:4 SQLGenerator.delete - A
-    M 30:4 SQLGenerator.select_female_under_age - A
-    M 34:4 SQLGenerator.select_by_age_range - A
-temp.py
-    C 1:0 SQLQueryBuilder - A
-    M 4:4 SQLQueryBuilder.select - A
-    M 26:4 SQLQueryBuilder.update - A
-    M 19:4 SQLQueryBuilder.delete - A
-    M 13:4 SQLQueryBuilder.insert - A
-temp.py
-    M 22:4 Statistics3.correlation - A
-    M 39:4 Statistics3.correlation_matrix - A
-    C 2:0 Statistics3 - A
-    M 13:4 Statistics3.mode - A
-    M 61:4 Statistics3.z_score - A
-    M 52:4 Statistics3.standard_deviation - A
-    M 4:4 Statistics3.median - A
-    M 33:4 Statistics3.mean - A
-temp.py
-    M 14:4 StockPortfolioTracker.remove_stock - A
-    C 1:0 StockPortfolioTracker - A
-    M 6:4 StockPortfolioTracker.add_stock - A
-    M 23:4 StockPortfolioTracker.buy_stock - A
-    M 31:4 StockPortfolioTracker.sell_stock - A
-    M 37:4 StockPortfolioTracker.calculate_portfolio_value - A
-    M 43:4 StockPortfolioTracker.get_portfolio_summary - A
-    M 2:4 StockPortfolioTracker.__init__ - A
-    M 51:4 StockPortfolioTracker.get_stock_value - A
-temp.py
-    C 2:0 StudentDatabaseProcessor - A
-    M 3:4 StudentDatabaseProcessor.__init__ - A
-    M 5:4 StudentDatabaseProcessor.create_student_table - A
-    M 20:4 StudentDatabaseProcessor.insert_student - A
-    M 31:4 StudentDatabaseProcessor.search_student_by_name - A
-    M 39:4 StudentDatabaseProcessor.delete_student_by_name - A
-temp.py
-    M 15:4 TextFileProcessor.process_file - A
-    C 2:0 TextFileProcessor - A
-    M 3:4 TextFileProcessor.__init__ - A
-    M 5:4 TextFileProcessor.read_file_as_json - A
-    M 9:4 TextFileProcessor.read_file - A
-    M 12:4 TextFileProcessor.write_file - A
-temp.py
-    M 23:4 Thermostat.auto_check_conflict - A
-    M 36:4 Thermostat.simulate_operation - A
-    C 2:0 Thermostat - A
-    M 13:4 Thermostat.set_mode - A
-    M 18:4 Thermostat.auto_set_mode - A
-    M 3:4 Thermostat.__init__ - A
-    M 7:4 Thermostat.get_target_temperature - A
-    M 9:4 Thermostat.set_target_temperature - A
-    M 11:4 Thermostat.get_mode - A
-temp.py
-    M 14:4 TicTacToe.check_winner - B
-    C 1:0 TicTacToe - A
-    M 2:4 TicTacToe.__init__ - A
-    M 6:4 TicTacToe.make_move - A
-    M 27:4 TicTacToe.is_board_full - A
-temp.py
-    C 3:0 TimeUtils - A
-    M 4:4 TimeUtils.__init__ - A
-    M 6:4 TimeUtils.get_current_time - A
-    M 9:4 TimeUtils.get_current_date - A
-    M 12:4 TimeUtils.add_seconds - A
-    M 16:4 TimeUtils.string_to_datetime - A
-    M 18:4 TimeUtils.datetime_to_string - A
-    M 20:4 TimeUtils.get_minutes - A
-    M 24:4 TimeUtils.get_format_time - A
-temp.py
-    C 2:0 TriCalculator - A
-    M 13:4 TriCalculator.taylor - A
-    M 7:4 TriCalculator.factorial - A
-    M 24:4 TriCalculator.sin - A
-    M 34:4 TriCalculator.tan - A
-    M 3:4 TriCalculator.__init__ - A
-    M 5:4 TriCalculator.cos - A
-temp.py
-    M 13:4 TwentyFourPointGame.answer - B
-    C 2:0 TwentyFourPointGame - A
-    M 5:4 TwentyFourPointGame._generate_cards - A
-    M 30:4 TwentyFourPointGame.evaluate_expression - A
-    M 3:4 TwentyFourPointGame.__init__ - A
-    M 9:4 TwentyFourPointGame.get_my_cards - A
-temp.py
-    M 30:4 URLHandler.get_query_params - A
-    C 1:0 URLHandler - A
-    M 11:4 URLHandler.get_host - A
-    M 21:4 URLHandler.get_path - A
-    M 5:4 URLHandler.get_scheme - A
-    M 46:4 URLHandler.get_fragment - A
-    M 2:4 URLHandler.__init__ - A
-temp.py
-    M 8:4 UrlPath.parse - A
-    C 2:0 UrlPath - A
-    M 19:4 UrlPath.fix_path - A
-    M 3:4 UrlPath.__init__ - A
-    M 6:4 UrlPath.add - A
-temp.py
-    M 23:4 UserLoginDB.validate_user_login - A
-    C 2:0 UserLoginDB - A
-    M 3:4 UserLoginDB.__init__ - A
-    M 6:4 UserLoginDB.insert_user - A
-    M 12:4 UserLoginDB.search_user_by_username - A
-    M 18:4 UserLoginDB.delete_user_by_username - A
-temp.py
-    C 4:0 VectorUtil - A
-    M 16:4 VectorUtil.n_similarity - A
-    M 22:4 VectorUtil.compute_idf_weight_dict - A
-    M 6:4 VectorUtil.similarity - A
-    M 9:4 VectorUtil.cosine_similarities - A
-temp.py
-    M 14:4 VendingMachine.purchase_item - A
-    C 1:0 VendingMachine - A
-    M 33:4 VendingMachine.display_items - A
-    M 6:4 VendingMachine.add_item - A
-    M 26:4 VendingMachine.restock_item - A
-    M 2:4 VendingMachine.__init__ - A
-    M 10:4 VendingMachine.insert_coin - A
-temp.py
-    C 1:0 Warehouse - A
-    M 6:4 Warehouse.add_product - A
-    M 12:4 Warehouse.update_product_quantity - A
-    M 16:4 Warehouse.get_product_quantity - A
-    M 22:4 Warehouse.create_order - A
-    M 29:4 Warehouse.change_order_status - A
-    M 35:4 Warehouse.track_order - A
-    M 2:4 Warehouse.__init__ - A
-temp.py
-    M 8:4 WeatherSystem.query - A
-    C 1:0 WeatherSystem - A
-    M 2:4 WeatherSystem.__init__ - A
-    M 23:4 WeatherSystem.set_city - A
-    M 26:4 WeatherSystem.celsius_to_fahrenheit - A
-    M 29:4 WeatherSystem.fahrenheit_to_celsius - A
-temp.py
-    M 24:4 Words2Numbers.text2int - B
-    C 1:0 Words2Numbers - B
-    M 59:4 Words2Numbers.is_valid_input - B
-    M 3:4 Words2Numbers.__init__ - A
-temp.py
-    C 2:0 XMLProcessor - A
-    M 6:4 XMLProcessor.read_xml - A
-    M 13:4 XMLProcessor.write_xml - A
-    M 20:4 XMLProcessor.process_xml_data - A
-    M 3:4 XMLProcessor.__init__ - A
-    M 25:4 XMLProcessor.find_element - A
-temp.py
-    C 2:0 ZipFileProcessor - A
-    M 25:4 ZipFileProcessor.create_zip_file - A
-    M 5:4 ZipFileProcessor.read_zip_file - A
-    M 11:4 ZipFileProcessor.extract_all - A
-    M 18:4 ZipFileProcessor.extract_file - A
-    M 3:4 ZipFileProcessor.__init__ - A
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
+    M 6:4 AccessGatewayFilter.filter - A (4)
+    C 3:0 AccessGatewayFilter - A (3)
+    M 19:4 AccessGatewayFilter.is_start_with - A (3)
+    M 25:4 AccessGatewayFilter.get_jwt_user - A (3)
+    M 4:4 AccessGatewayFilter.__init__ - A (1)
+    M 34:4 AccessGatewayFilter.set_current_user_info_and_log - A (1)
+temp.py
+    C 2:0 AreaCalculator - A (2)
+    M 3:4 AreaCalculator.__init__ - A (1)
+    M 5:4 AreaCalculator.calculate_circle_area - A (1)
+    M 7:4 AreaCalculator.calculate_sphere_area - A (1)
+    M 9:4 AreaCalculator.calculate_cylinder_area - A (1)
+    M 11:4 AreaCalculator.calculate_sector_area - A (1)
+    M 13:4 AreaCalculator.calculate_annulus_area - A (1)
+temp.py
+    M 7:4 ArgumentParser.parse_arguments - B (8)
+    C 1:0 ArgumentParser - A (4)
+    M 32:4 ArgumentParser.add_argument - A (2)
+    M 37:4 ArgumentParser._convert_type - A (2)
+    M 2:4 ArgumentParser.__init__ - A (1)
+    M 29:4 ArgumentParser.get_argument - A (1)
+temp.py
+    C 2:0 ArrangementCalculator - A (3)
+    M 6:4 ArrangementCalculator.count - A (3)
+    M 17:4 ArrangementCalculator.select - A (3)
+    M 12:4 ArrangementCalculator.count_all - A (2)
+    M 24:4 ArrangementCalculator.select_all - A (2)
+    M 30:4 ArrangementCalculator.factorial - A (2)
+    M 3:4 ArrangementCalculator.__init__ - A (1)
+temp.py
+    M 27:4 AssessmentSystem.get_course_average - A (5)
+    C 1:0 AssessmentSystem - A (4)
+    M 18:4 AssessmentSystem.get_all_students_with_fail_course - A (4)
+    M 38:4 AssessmentSystem.get_top_student - A (4)
+    M 12:4 AssessmentSystem.get_gpa - A (3)
+    M 8:4 AssessmentSystem.add_course_score - A (2)
+    M 2:4 AssessmentSystem.__init__ - A (1)
+    M 5:4 AssessmentSystem.add_student - A (1)
+temp.py
+    M 5:4 AutomaticGuitarSimulator.interpret - B (6)
+    C 1:0 AutomaticGuitarSimulator - A (4)
+    M 2:4 AutomaticGuitarSimulator.__init__ - A (1)
+    M 25:4 AutomaticGuitarSimulator.display - A (1)
+temp.py
+    C 1:0 AvgPartition - A (2)
+    M 12:4 AvgPartition.get - A (2)
+    M 2:4 AvgPartition.__init__ - A (1)
+    M 6:4 AvgPartition.setNum - A (1)
+temp.py
+    M 11:4 BalancedBrackets.check_balanced_brackets - B (10)
+    C 1:0 BalancedBrackets - B (6)
+    M 8:4 BalancedBrackets.clear_expr - A (4)
+    M 2:4 BalancedBrackets.__init__ - A (1)
+temp.py
+    M 11:4 BankAccount.withdraw - A (3)
+    C 1:0 BankAccount - A (2)
+    M 5:4 BankAccount.deposit - A (2)
+    M 2:4 BankAccount.__init__ - A (1)
+    M 19:4 BankAccount.view_balance - A (1)
+    M 22:4 BankAccount.transfer - A (1)
+temp.py
+    M 22:4 BigNumCalculator.subtract - B (9)
+    C 1:0 BigNumCalculator - B (7)
+    M 62:4 BigNumCalculator.multiply - A (5)
+    M 3:4 BigNumCalculator.add - A (3)
+temp.py
+    C 1:0 BinaryDataProcessor - A (2)
+    M 23:4 BinaryDataProcessor.convert_to_ascii - A (2)
+    M 32:4 BinaryDataProcessor.convert_to_utf8 - A (2)
+    M 2:4 BinaryDataProcessor.__init__ - A (1)
+    M 6:4 BinaryDataProcessor.clean_non_binary_chars - A (1)
+    M 9:4 BinaryDataProcessor.calculate_binary_info - A (1)
+temp.py
+    M 20:4 BitStatusUtil.check - A (4)
+    C 1:0 BitStatusUtil - A (3)
+    M 13:4 BitStatusUtil.remove - A (2)
+    M 3:4 BitStatusUtil.add - A (1)
+    M 8:4 BitStatusUtil.has - A (1)
+temp.py
+    M 16:4 BlackjackGame.calculate_hand_value - B (7)
+    M 32:4 BlackjackGame.check_winner - B (7)
+    C 2:0 BlackjackGame - A (5)
+    M 7:4 BlackjackGame.create_deck - A (3)
+    M 3:4 BlackjackGame.__init__ - A (1)
+temp.py
+    M 11:4 BookManagement.remove_book - A (4)
+    C 1:0 BookManagement - A (3)
+    M 5:4 BookManagement.add_book - A (2)
+    M 21:4 BookManagement.view_book_quantity - A (2)
+    M 2:4 BookManagement.__init__ - A (1)
+    M 18:4 BookManagement.view_inventory - A (1)
+temp.py
+    C 2:0 BookManagementDB - A (2)
+    M 3:4 BookManagementDB.__init__ - A (1)
+    M 7:4 BookManagementDB.create_table - A (1)
+    M 17:4 BookManagementDB.add_book - A (1)
+    M 23:4 BookManagementDB.remove_book - A (1)
+    M 28:4 BookManagementDB.borrow_book - A (1)
+    M 33:4 BookManagementDB.return_book - A (1)
+    M 38:4 BookManagementDB.search_books - A (1)
+temp.py
+    C 1:0 BoyerMooreSearch - A (3)
+    M 6:4 BoyerMooreSearch.match_in_pattern - A (3)
+    M 12:4 BoyerMooreSearch.mismatch_in_text - A (3)
+    M 18:4 BoyerMooreSearch.bad_character_heuristic - A (3)
+    M 2:4 BoyerMooreSearch.__init__ - A (1)
+temp.py
+    M 11:4 Calculator.calculate - C (16)
+    C 1:0 Calculator - B (6)
+    M 59:4 Calculator.apply_operator - A (2)
+    M 2:4 Calculator.__init__ - A (1)
+    M 49:4 Calculator.precedence - A (1)
+temp.py
+    M 16:4 CalendarUtil.is_available - A (4)
+    M 31:4 CalendarUtil.get_upcoming_events - A (4)
+    C 2:0 CalendarUtil - A (3)
+    M 10:4 CalendarUtil.get_events - A (3)
+    M 21:4 CalendarUtil.get_available_slots - A (3)
+    M 7:4 CalendarUtil.remove_event - A (2)
+    M 3:4 CalendarUtil.__init__ - A (1)
+    M 5:4 CalendarUtil.add_event - A (1)
+temp.py
+    C 1:0 CamelCaseMap - A (2)
+    M 20:4 CamelCaseMap._convert_key - A (2)
+    M 26:4 CamelCaseMap._to_camel_case - A (2)
+    M 2:4 CamelCaseMap.__init__ - A (1)
+    M 5:4 CamelCaseMap.__getitem__ - A (1)
+    M 8:4 CamelCaseMap.__setitem__ - A (1)
+    M 11:4 CamelCaseMap.__delitem__ - A (1)
+    M 14:4 CamelCaseMap.__iter__ - A (1)
+    M 17:4 CamelCaseMap.__len__ - A (1)
+temp.py
+    M 6:4 ChandrasekharSieve.generate_primes - B (7)
+    C 1:0 ChandrasekharSieve - A (4)
+    M 2:4 ChandrasekharSieve.__init__ - A (1)
+    M 27:4 ChandrasekharSieve.get_primes - A (1)
+temp.py
+    C 2:0 Chat - A (3)
+    M 17:4 Chat.send_message - A (3)
+    M 5:4 Chat.add_user - A (2)
+    M 11:4 Chat.remove_user - A (2)
+    M 30:4 Chat.get_messages - A (2)
+    M 3:4 Chat.__init__ - A (1)
+temp.py
+    M 19:4 Classroom.check_course_conflict - B (6)
+    C 2:0 Classroom - A (4)
+    M 12:4 Classroom.is_free_at - A (3)
+    M 6:4 Classroom.add_course - A (2)
+    M 9:4 Classroom.remove_course - A (2)
+    M 3:4 Classroom.__init__ - A (1)
+temp.py
+    C 1:0 ClassRegistrationSystem - A (3)
+    M 21:4 ClassRegistrationSystem.get_students_by_major - A (3)
+    M 28:4 ClassRegistrationSystem.get_all_major - A (3)
+    M 35:4 ClassRegistrationSystem.get_most_popular_class_in_major - A (3)
+    M 7:4 ClassRegistrationSystem.register_student - A (2)
+    M 14:4 ClassRegistrationSystem.register_class - A (2)
+    M 3:4 ClassRegistrationSystem.__init__ - A (1)
+temp.py
+    M 12:4 CombinationCalculator.count_all - A (4)
+    C 3:0 CombinationCalculator - A (3)
+    M 7:4 CombinationCalculator.count - A (3)
+    M 25:4 CombinationCalculator._select - A (3)
+    M 20:4 CombinationCalculator.select_all - A (2)
+    M 4:4 CombinationCalculator.__init__ - A (1)
+    M 16:4 CombinationCalculator.select - A (1)
+temp.py
+    C 1:0 ComplexCalculator - A (2)
+    M 2:4 ComplexCalculator.__init__ - A (1)
+    M 6:4 ComplexCalculator.add - A (1)
+    M 13:4 ComplexCalculator.subtract - A (1)
+    M 19:4 ComplexCalculator.multiply - A (1)
+    M 25:4 ComplexCalculator.divide - A (1)
+temp.py
+    C 2:0 CookiesUtil - A (2)
+    M 9:4 CookiesUtil.load_cookies - A (2)
+    M 16:4 CookiesUtil._save_cookies - A (2)
+    M 23:4 CookiesUtil.set_cookies - A (2)
+    M 3:4 CookiesUtil.__init__ - A (1)
+    M 6:4 CookiesUtil.get_cookies - A (1)
+temp.py
+    C 2:0 CSVProcessor - A (3)
+    M 21:4 CSVProcessor.process_csv_data - A (3)
+    M 5:4 CSVProcessor.read_csv - A (2)
+    M 13:4 CSVProcessor.write_csv - A (2)
+    M 3:4 CSVProcessor.__init__ - A (1)
+temp.py
+    M 13:4 CurrencyConverter.convert - A (4)
+    C 1:0 CurrencyConverter - A (3)
+    M 29:4 CurrencyConverter.add_currency_rate - A (2)
+    M 34:4 CurrencyConverter.update_currency_rate - A (2)
+    M 2:4 CurrencyConverter.__init__ - A (1)
+    M 26:4 CurrencyConverter.get_supported_currencies - A (1)
+temp.py
+    C 3:0 DatabaseProcessor - A (2)
+    M 13:4 DatabaseProcessor.insert_into_database - A (2)
+    M 21:4 DatabaseProcessor.search_database - A (2)
+    M 4:4 DatabaseProcessor.__init__ - A (1)
+    M 6:4 DatabaseProcessor.create_table - A (1)
+    M 31:4 DatabaseProcessor.delete_from_database - A (1)
+temp.py
+    C 2:0 DataStatistics - A (3)
+    M 14:4 DataStatistics.mode - A (3)
+    M 5:4 DataStatistics.median - A (2)
+    M 3:4 DataStatistics.mean - A (1)
+temp.py
+    C 2:0 DataStatistics2 - A (2)
+    M 3:4 DataStatistics2.__init__ - A (1)
+    M 5:4 DataStatistics2.get_sum - A (1)
+    M 7:4 DataStatistics2.get_min - A (1)
+    M 9:4 DataStatistics2.get_max - A (1)
+    M 11:4 DataStatistics2.get_variance - A (1)
+    M 13:4 DataStatistics2.get_std_deviation - A (1)
+    M 15:4 DataStatistics2.get_correlation - A (1)
+temp.py
+    C 2:0 DataStatistics4 - A (5)
+    M 4:4 DataStatistics4.correlation_coefficient - A (5)
+    M 22:4 DataStatistics4.kurtosis - A (5)
+    M 13:4 DataStatistics4.skewness - A (4)
+    M 34:4 DataStatistics4.pdf - A (2)
+temp.py
+    M 32:4 DecryptionUtils.rail_fence_decipher - C (12)
+    C 1:0 DecryptionUtils - B (6)
+    M 5:4 DecryptionUtils.caesar_decipher - A (4)
+    M 19:4 DecryptionUtils.vigenere_decipher - A (4)
+    M 2:4 DecryptionUtils.__init__ - A (1)
+temp.py
+    C 1:0 DiscountStrategy - A (3)
+    M 24:4 DiscountStrategy.BulkItemPromo - A (3)
+    M 32:4 DiscountStrategy.LargeOrderPromo - A (3)
+    M 8:4 DiscountStrategy.total - A (2)
+    M 12:4 DiscountStrategy.due - A (2)
+    M 20:4 DiscountStrategy.FidelityPromo - A (2)
+    M 2:4 DiscountStrategy.__init__ - A (1)
+temp.py
+    M 34:4 DocFileHandler.add_table - A (4)
+    C 4:0 DocFileHandler - A (3)
+    M 7:4 DocFileHandler.read_text - A (2)
+    M 13:4 DocFileHandler.write_text - A (2)
+    M 26:4 DocFileHandler.add_heading - A (2)
+    M 5:4 DocFileHandler.__init__ - A (1)
+    M 45:4 DocFileHandler._get_alignment_value - A (1)
+temp.py
+    M 12:4 EightPuzzle.move - B (6)
+    C 1:0 EightPuzzle - A (5)
+    M 27:4 EightPuzzle.get_possible_moves - A (5)
+    M 42:4 EightPuzzle.solve - A (5)
+    M 6:4 EightPuzzle.find_blank - A (4)
+    M 2:4 EightPuzzle.__init__ - A (1)
+temp.py
+    M 25:4 EmailClient.fetch - A (4)
+    M 42:4 EmailClient.clear_inbox - A (4)
+    C 2:0 EmailClient - A (3)
+    M 8:4 EmailClient.send_to - A (2)
+    M 33:4 EmailClient.is_full_with_one_more_email - A (2)
+    M 37:4 EmailClient.get_occupied_size - A (2)
+    M 3:4 EmailClient.__init__ - A (1)
+temp.py
+    M 32:4 EncryptionUtils.rail_fence_cipher - B (9)
+    C 1:0 EncryptionUtils - A (5)
+    M 5:4 EncryptionUtils.caesar_cipher - A (4)
+    M 19:4 EncryptionUtils.vigenere_cipher - A (4)
+    M 2:4 EncryptionUtils.__init__ - A (1)
+temp.py
+    M 27:4 ExcelProcessor.process_excel_data - A (5)
+    C 2:0 ExcelProcessor - A (4)
+    M 5:4 ExcelProcessor.read_excel - A (3)
+    M 16:4 ExcelProcessor.write_excel - A (3)
+    M 3:4 ExcelProcessor.__init__ - A (1)
+temp.py
+    M 25:4 ExpressionCalculator.prepare - C (13)
+    M 76:4 ExpressionCalculator.transform - B (8)
+    C 4:0 ExpressionCalculator - B (6)
+    M 62:4 ExpressionCalculator._calculate - B (6)
+    M 8:4 ExpressionCalculator.calculate - A (3)
+    M 55:4 ExpressionCalculator.compare - A (3)
+    M 5:4 ExpressionCalculator.__init__ - A (1)
+    M 53:4 ExpressionCalculator.is_operator - A (1)
+temp.py
+    M 15:4 FitnessTracker.condition_judge - A (4)
+    M 31:4 FitnessTracker.calculate_calorie_intake - A (4)
+    C 1:0 FitnessTracker - A (3)
+    M 2:4 FitnessTracker.__init__ - A (1)
+    M 12:4 FitnessTracker.get_BMI - A (1)
+temp.py
+    M 14:4 GomokuGame.check_winner - B (6)
+    C 1:0 GomokuGame - A (5)
+    M 24:4 GomokuGame._check_five_in_a_row - A (5)
+    M 2:4 GomokuGame.__init__ - A (3)
+    M 7:4 GomokuGame.make_move - A (3)
+temp.py
+    M 11:4 Hotel.book_room - A (5)
+    M 28:4 Hotel.check_in - A (5)
+    C 1:0 Hotel - A (4)
+    M 42:4 Hotel.check_out - A (2)
+    M 2:4 Hotel.__init__ - A (1)
+    M 48:4 Hotel.get_available_rooms - A (1)
+temp.py
+    M 24:4 HRManagementSystem.update_employee - A (5)
+    M 42:4 HRManagementSystem.list_employees - A (4)
+    C 1:0 HRManagementSystem - A (3)
+    M 5:4 HRManagementSystem.add_employee - A (2)
+    M 17:4 HRManagementSystem.remove_employee - A (2)
+    M 36:4 HRManagementSystem.get_employee - A (2)
+    M 2:4 HRManagementSystem.__init__ - A (1)
+temp.py
+    M 19:4 HtmlUtil.format_line_html_text - C (13)
+    C 5:0 HtmlUtil - B (6)
+    M 51:4 HtmlUtil.extract_code_from_html_text - A (4)
+    M 6:4 HtmlUtil.__init__ - A (1)
+    M 17:4 HtmlUtil.__format_line_feed - A (1)
+temp.py
+    C 2:0 ImageProcessor - A (2)
+    M 7:4 ImageProcessor.save_image - A (2)
+    M 10:4 ImageProcessor.resize_image - A (2)
+    M 13:4 ImageProcessor.rotate_image - A (2)
+    M 16:4 ImageProcessor.adjust_brightness - A (2)
+    M 3:4 ImageProcessor.__init__ - A (1)
+    M 5:4 ImageProcessor.load_image - A (1)
+temp.py
+    M 17:4 Interpolation.interpolate_2d - B (6)
+    C 1:0 Interpolation - A (5)
+    M 6:4 Interpolation.interpolate_1d - A (4)
+    M 2:4 Interpolation.__init__ - A (1)
+temp.py
+    M 5:4 IPAddress.is_valid - B (6)
+    C 1:0 IPAddress - A (4)
+    M 20:4 IPAddress.get_binary - A (3)
+    M 14:4 IPAddress.get_octets - A (2)
+    M 2:4 IPAddress.__init__ - A (1)
+temp.py
+    C 2:0 IpUtil - A (3)
+    M 4:4 IpUtil.is_valid_ipv4 - A (2)
+    M 11:4 IpUtil.is_valid_ipv6 - A (2)
+    M 18:4 IpUtil.get_hostname - A (2)
+temp.py
+    M 21:4 JobMarketplace.search_jobs - A (5)
+    C 1:0 JobMarketplace - A (3)
+    M 28:4 JobMarketplace.get_job_applicants - A (3)
+    M 36:4 JobMarketplace.matches_requirements - A (3)
+    M 2:4 JobMarketplace.__init__ - A (1)
+    M 6:4 JobMarketplace.post_job - A (1)
+    M 11:4 JobMarketplace.remove_job - A (1)
+    M 14:4 JobMarketplace.submit_resume - A (1)
+    M 18:4 JobMarketplace.withdraw_resume - A (1)
+temp.py
+    C 3:0 JSONProcessor - A (4)
+    M 20:4 JSONProcessor.process_json - A (4)
+    M 4:4 JSONProcessor.read_json - A (3)
+    M 13:4 JSONProcessor.write_json - A (2)
+temp.py
+    C 2:0 KappaCalculator - A (4)
+    M 17:4 KappaCalculator.fleiss_kappa - A (4)
+    M 4:4 KappaCalculator.kappa - A (2)
+temp.py
+    M 8:4 Lemmatization.lemmatize_sentence - A (5)
+    C 5:0 Lemmatization - A (3)
+    M 24:4 Lemmatization.get_pos_tag - A (2)
+    M 6:4 Lemmatization.__init__ - A (1)
+    M 32:4 Lemmatization.remove_punctuation - A (1)
+temp.py
+    M 8:4 LongestWord.find_longest_word - A (4)
+    C 3:0 LongestWord - A (3)
+    M 4:4 LongestWord.__init__ - A (1)
+    M 6:4 LongestWord.add_word - A (1)
+temp.py
+    M 28:4 MahjongConnect.has_path - B (9)
+    M 10:4 MahjongConnect.is_valid_move - B (8)
+    C 2:0 MahjongConnect - A (5)
+    M 51:4 MahjongConnect.is_game_over - A (4)
+    M 7:4 MahjongConnect.create_board - A (3)
+    M 3:4 MahjongConnect.__init__ - A (1)
+    M 46:4 MahjongConnect.remove_icons - A (1)
+temp.py
+    M 12:4 Manacher.palindromic_string - B (6)
+    C 1:0 Manacher - A (5)
+    M 5:4 Manacher.palindromic_length - A (4)
+    M 2:4 Manacher.__init__ - A (1)
+temp.py
+    M 8:4 MetricsCalculator.update - B (10)
+    C 1:0 MetricsCalculator - A (4)
+    M 19:4 MetricsCalculator.precision - A (2)
+    M 25:4 MetricsCalculator.recall - A (2)
+    M 31:4 MetricsCalculator.f1_score - A (2)
+    M 39:4 MetricsCalculator.accuracy - A (2)
+    M 2:4 MetricsCalculator.__init__ - A (1)
+temp.py
+    M 6:4 MetricsCalculator2.mrr - C (13)
+    M 42:4 MetricsCalculator2.map - C (13)
+    C 2:0 MetricsCalculator2 - B (10)
+    M 3:4 MetricsCalculator2.__init__ - A (1)
+temp.py
+    M 9:4 MinesweeperGame.generate_mine_sweeper_map - F (44)
+    C 2:0 MinesweeperGame - C (12)
+    M 46:4 MinesweeperGame.check_won - A (5)
+    M 43:4 MinesweeperGame.generate_playerMap - A (3)
+    M 53:4 MinesweeperGame.sweep - A (3)
+    M 3:4 MinesweeperGame.__init__ - A (1)
+temp.py
+    M 15:4 MovieBookingSystem.book_ticket - A (5)
+    C 3:0 MovieBookingSystem - A (4)
+    M 25:4 MovieBookingSystem.available_movies - A (4)
+    M 4:4 MovieBookingSystem.__init__ - A (1)
+    M 6:4 MovieBookingSystem.add_movie - A (1)
+temp.py
+    C 2:0 MovieTicketDB - A (2)
+    M 3:4 MovieTicketDB.__init__ - A (1)
+    M 7:4 MovieTicketDB.create_table - A (1)
+    M 18:4 MovieTicketDB.insert_ticket - A (1)
+    M 24:4 MovieTicketDB.search_tickets_by_customer - A (1)
+    M 30:4 MovieTicketDB.delete_ticket - A (1)
+temp.py
+    M 16:4 MusicPlayer.play - A (4)
+    C 1:0 MusicPlayer - A (3)
+    M 10:4 MusicPlayer.remove_song - A (3)
+    M 29:4 MusicPlayer.switch_song - A (3)
+    M 40:4 MusicPlayer.previous_song - A (3)
+    M 22:4 MusicPlayer.stop - A (2)
+    M 51:4 MusicPlayer.set_volume - A (2)
+    M 57:4 MusicPlayer.shuffle - A (2)
+    M 2:4 MusicPlayer.__init__ - A (1)
+    M 7:4 MusicPlayer.add_song - A (1)
+temp.py
+    M 7:4 NLPDataProcessor.remove_stop_words - A (4)
+    C 1:0 NLPDataProcessor - A (3)
+    M 3:4 NLPDataProcessor.construct_stop_word_list - A (1)
+    M 17:4 NLPDataProcessor.process - A (1)
+temp.py
+    C 3:0 NLPDataProcessor2 - A (3)
+    M 4:4 NLPDataProcessor2.process_data - A (2)
+    M 13:4 NLPDataProcessor2.calculate_word_frequency - A (2)
+    M 20:4 NLPDataProcessor2.process - A (1)
+temp.py
+    C 1:0 NumberConverter - A (2)
+    M 3:4 NumberConverter.decimal_to_binary - A (1)
+    M 8:4 NumberConverter.binary_to_decimal - A (1)
+    M 13:4 NumberConverter.decimal_to_octal - A (1)
+    M 18:4 NumberConverter.octal_to_decimal - A (1)
+    M 23:4 NumberConverter.decimal_to_hex - A (1)
+    M 28:4 NumberConverter.hex_to_decimal - A (1)
+temp.py
+    M 17:4 NumberWordFormatter.format_string - B (7)
+    C 1:0 NumberWordFormatter - A (4)
+    M 41:4 NumberWordFormatter.trans_two - A (4)
+    M 52:4 NumberWordFormatter.trans_three - A (3)
+    M 11:4 NumberWordFormatter.format - A (2)
+    M 2:4 NumberWordFormatter.__init__ - A (1)
+    M 60:4 NumberWordFormatter.parse_more - A (1)
+temp.py
+    M 5:4 NumericEntityUnescaper.replace - C (13)
+    C 1:0 NumericEntityUnescaper - B (6)
+    M 43:4 NumericEntityUnescaper.is_hex_char - A (2)
+    M 2:4 NumericEntityUnescaper.__init__ - A (1)
+temp.py
+    M 12:4 Order.add_dish - A (4)
+    C 1:0 Order - A (3)
+    M 23:4 Order.calculate_total - A (2)
+    M 29:4 Order.checkout - A (2)
+    M 3:4 Order.__init__ - A (1)
+temp.py
+    C 1:0 PageUtil - A (3)
+    M 8:4 PageUtil.get_page - A (3)
+    M 16:4 PageUtil.get_page_info - A (3)
+    M 35:4 PageUtil.search - A (3)
+    M 2:4 PageUtil.__init__ - A (1)
+temp.py
+    C 2:0 PDFHandler - A (4)
+    M 7:4 PDFHandler.merge_pdfs - A (3)
+    M 19:4 PDFHandler.extract_text_from_pdfs - A (3)
+    M 3:4 PDFHandler.__init__ - A (2)
+temp.py
+    M 19:4 PersonRequest._validate_phoneNumber - A (4)
+    C 1:0 PersonRequest - A (3)
+    M 7:4 PersonRequest._validate_name - A (3)
+    M 14:4 PersonRequest._validate_sex - A (2)
+    M 2:4 PersonRequest.__init__ - A (1)
+temp.py
+    M 34:4 PushBoxGame.move - B (8)
+    C 1:0 PushBoxGame - B (6)
+    M 13:4 PushBoxGame.init_game - B (6)
+    M 25:4 PushBoxGame.check_win - A (4)
+    M 2:4 PushBoxGame.__init__ - A (1)
+temp.py
+    C 2:0 RegexUtils - A (2)
+    M 3:4 RegexUtils.match - A (2)
+    M 9:4 RegexUtils.findall - A (1)
+    M 11:4 RegexUtils.split - A (1)
+    M 13:4 RegexUtils.sub - A (1)
+    M 15:4 RegexUtils.generate_email_pattern - A (1)
+    M 18:4 RegexUtils.generate_phone_number_pattern - A (1)
+    M 21:4 RegexUtils.generate_split_sentences_pattern - A (1)
+    M 24:4 RegexUtils.split_sentences - A (1)
+    M 27:4 RegexUtils.validate_phone_number - A (1)
+    M 30:4 RegexUtils.extract_email - A (1)
+temp.py
+    M 20:4 RPGCharacter.gain_exp - A (3)
+    C 1:0 RPGCharacter - A (2)
+    M 14:4 RPGCharacter.heal - A (2)
+    M 29:4 RPGCharacter.level_up - A (2)
+    M 2:4 RPGCharacter.__init__ - A (1)
+    M 10:4 RPGCharacter.attack - A (1)
+    M 38:4 RPGCharacter.is_alive - A (1)
+temp.py
+    M 22:4 Server.recv - A (5)
+    C 1:0 Server - A (4)
+    M 33:4 Server.send - A (4)
+    M 38:4 Server.show - A (3)
+    M 8:4 Server.add_white_list - A (2)
+    M 15:4 Server.del_white_list - A (2)
+    M 3:4 Server.__init__ - A (1)
+temp.py
+    C 1:0 ShoppingCart - A (2)
+    M 5:4 ShoppingCart.add_item - A (2)
+    M 11:4 ShoppingCart.remove_item - A (2)
+    M 20:4 ShoppingCart.total_price - A (2)
+    M 2:4 ShoppingCart.__init__ - A (1)
+    M 17:4 ShoppingCart.view_items - A (1)
+temp.py
+    C 1:0 SignInSystem - A (3)
+    M 19:4 SignInSystem.check_sign_in - A (3)
+    M 34:4 SignInSystem.all_not_signed_in - A (3)
+    M 5:4 SignInSystem.add_user - A (2)
+    M 12:4 SignInSystem.sign_in - A (2)
+    M 28:4 SignInSystem.all_signed_in - A (2)
+    M 2:4 SignInSystem.__init__ - A (1)
+temp.py
+    M 11:4 Snake.move - A (5)
+    C 2:0 Snake - A (3)
+    M 26:4 Snake.random_food_position - A (2)
+    M 3:4 Snake.__init__ - A (1)
+    M 30:4 Snake.reset - A (1)
+    M 35:4 Snake.eat_food - A (1)
+temp.py
+    C 2:0 SplitSentence - A (3)
+    M 10:4 SplitSentence.process_text_file - A (3)
+    M 3:4 SplitSentence.split_sentences - A (1)
+    M 6:4 SplitSentence.count_words - A (1)
+temp.py
+    M 5:4 SQLGenerator.select - A (3)
+    C 1:0 SQLGenerator - A (2)
+    M 15:4 SQLGenerator.insert - A (2)
+    M 21:4 SQLGenerator.update - A (2)
+    M 2:4 SQLGenerator.__init__ - A (1)
+    M 26:4 SQLGenerator.delete - A (1)
+    M 30:4 SQLGenerator.select_female_under_age - A (1)
+    M 34:4 SQLGenerator.select_by_age_range - A (1)
+temp.py
+    C 1:0 SQLQueryBuilder - A (4)
+    M 4:4 SQLQueryBuilder.select - A (4)
+    M 26:4 SQLQueryBuilder.update - A (4)
+    M 19:4 SQLQueryBuilder.delete - A (3)
+    M 13:4 SQLQueryBuilder.insert - A (2)
+temp.py
+    M 22:4 Statistics3.correlation - A (5)
+    M 39:4 Statistics3.correlation_matrix - A (5)
+    C 2:0 Statistics3 - A (4)
+    M 13:4 Statistics3.mode - A (4)
+    M 61:4 Statistics3.z_score - A (4)
+    M 52:4 Statistics3.standard_deviation - A (3)
+    M 4:4 Statistics3.median - A (2)
+    M 33:4 Statistics3.mean - A (2)
+temp.py
+    M 14:4 StockPortfolioTracker.remove_stock - A (5)
+    C 1:0 StockPortfolioTracker - A (3)
+    M 6:4 StockPortfolioTracker.add_stock - A (3)
+    M 23:4 StockPortfolioTracker.buy_stock - A (2)
+    M 31:4 StockPortfolioTracker.sell_stock - A (2)
+    M 37:4 StockPortfolioTracker.calculate_portfolio_value - A (2)
+    M 43:4 StockPortfolioTracker.get_portfolio_summary - A (2)
+    M 2:4 StockPortfolioTracker.__init__ - A (1)
+    M 51:4 StockPortfolioTracker.get_stock_value - A (1)
+temp.py
+    C 2:0 StudentDatabaseProcessor - A (2)
+    M 3:4 StudentDatabaseProcessor.__init__ - A (1)
+    M 5:4 StudentDatabaseProcessor.create_student_table - A (1)
+    M 20:4 StudentDatabaseProcessor.insert_student - A (1)
+    M 31:4 StudentDatabaseProcessor.search_student_by_name - A (1)
+    M 39:4 StudentDatabaseProcessor.delete_student_by_name - A (1)
+temp.py
+    M 15:4 TextFileProcessor.process_file - A (3)
+    C 2:0 TextFileProcessor - A (2)
+    M 3:4 TextFileProcessor.__init__ - A (1)
+    M 5:4 TextFileProcessor.read_file_as_json - A (1)
+    M 9:4 TextFileProcessor.read_file - A (1)
+    M 12:4 TextFileProcessor.write_file - A (1)
+temp.py
+    M 23:4 Thermostat.auto_check_conflict - A (4)
+    M 36:4 Thermostat.simulate_operation - A (4)
+    C 2:0 Thermostat - A (3)
+    M 13:4 Thermostat.set_mode - A (2)
+    M 18:4 Thermostat.auto_set_mode - A (2)
+    M 3:4 Thermostat.__init__ - A (1)
+    M 7:4 Thermostat.get_target_temperature - A (1)
+    M 9:4 Thermostat.set_target_temperature - A (1)
+    M 11:4 Thermostat.get_mode - A (1)
+temp.py
+    M 14:4 TicTacToe.check_winner - B (7)
+    C 1:0 TicTacToe - A (5)
+    M 2:4 TicTacToe.__init__ - A (3)
+    M 6:4 TicTacToe.make_move - A (3)
+    M 27:4 TicTacToe.is_board_full - A (3)
+temp.py
+    C 3:0 TimeUtils - A (2)
+    M 4:4 TimeUtils.__init__ - A (1)
+    M 6:4 TimeUtils.get_current_time - A (1)
+    M 9:4 TimeUtils.get_current_date - A (1)
+    M 12:4 TimeUtils.add_seconds - A (1)
+    M 16:4 TimeUtils.string_to_datetime - A (1)
+    M 18:4 TimeUtils.datetime_to_string - A (1)
+    M 20:4 TimeUtils.get_minutes - A (1)
+    M 24:4 TimeUtils.get_format_time - A (1)
+temp.py
+    C 2:0 TriCalculator - A (3)
+    M 13:4 TriCalculator.taylor - A (3)
+    M 7:4 TriCalculator.factorial - A (2)
+    M 24:4 TriCalculator.sin - A (2)
+    M 34:4 TriCalculator.tan - A (2)
+    M 3:4 TriCalculator.__init__ - A (1)
+    M 5:4 TriCalculator.cos - A (1)
+temp.py
+    M 13:4 TwentyFourPointGame.answer - B (10)
+    C 2:0 TwentyFourPointGame - A (4)
+    M 5:4 TwentyFourPointGame._generate_cards - A (3)
+    M 30:4 TwentyFourPointGame.evaluate_expression - A (3)
+    M 3:4 TwentyFourPointGame.__init__ - A (1)
+    M 9:4 TwentyFourPointGame.get_my_cards - A (1)
+temp.py
+    M 30:4 URLHandler.get_query_params - A (5)
+    C 1:0 URLHandler - A (3)
+    M 11:4 URLHandler.get_host - A (3)
+    M 21:4 URLHandler.get_path - A (3)
+    M 5:4 URLHandler.get_scheme - A (2)
+    M 46:4 URLHandler.get_fragment - A (2)
+    M 2:4 URLHandler.__init__ - A (1)
+temp.py
+    M 8:4 UrlPath.parse - A (5)
+    C 2:0 UrlPath - A (3)
+    M 19:4 UrlPath.fix_path - A (2)
+    M 3:4 UrlPath.__init__ - A (1)
+    M 6:4 UrlPath.add - A (1)
+temp.py
+    M 23:4 UserLoginDB.validate_user_login - A (3)
+    C 2:0 UserLoginDB - A (2)
+    M 3:4 UserLoginDB.__init__ - A (1)
+    M 6:4 UserLoginDB.insert_user - A (1)
+    M 12:4 UserLoginDB.search_user_by_username - A (1)
+    M 18:4 UserLoginDB.delete_user_by_username - A (1)
+temp.py
+    C 4:0 VectorUtil - A (3)
+    M 16:4 VectorUtil.n_similarity - A (3)
+    M 22:4 VectorUtil.compute_idf_weight_dict - A (3)
+    M 6:4 VectorUtil.similarity - A (1)
+    M 9:4 VectorUtil.cosine_similarities - A (1)
+temp.py
+    M 14:4 VendingMachine.purchase_item - A (4)
+    C 1:0 VendingMachine - A (3)
+    M 33:4 VendingMachine.display_items - A (3)
+    M 6:4 VendingMachine.add_item - A (2)
+    M 26:4 VendingMachine.restock_item - A (2)
+    M 2:4 VendingMachine.__init__ - A (1)
+    M 10:4 VendingMachine.insert_coin - A (1)
+temp.py
+    C 1:0 Warehouse - A (3)
+    M 6:4 Warehouse.add_product - A (2)
+    M 12:4 Warehouse.update_product_quantity - A (2)
+    M 16:4 Warehouse.get_product_quantity - A (2)
+    M 22:4 Warehouse.create_order - A (2)
+    M 29:4 Warehouse.change_order_status - A (2)
+    M 35:4 Warehouse.track_order - A (2)
+    M 2:4 Warehouse.__init__ - A (1)
+temp.py
+    M 8:4 WeatherSystem.query - A (5)
+    C 1:0 WeatherSystem - A (3)
+    M 2:4 WeatherSystem.__init__ - A (1)
+    M 23:4 WeatherSystem.set_city - A (1)
+    M 26:4 WeatherSystem.celsius_to_fahrenheit - A (1)
+    M 29:4 WeatherSystem.fahrenheit_to_celsius - A (1)
+temp.py
+    M 24:4 Words2Numbers.text2int - B (9)
+    C 1:0 Words2Numbers - B (8)
+    M 59:4 Words2Numbers.is_valid_input - B (6)
+    M 3:4 Words2Numbers.__init__ - A (5)
+temp.py
+    C 2:0 XMLProcessor - A (2)
+    M 6:4 XMLProcessor.read_xml - A (2)
+    M 13:4 XMLProcessor.write_xml - A (2)
+    M 20:4 XMLProcessor.process_xml_data - A (2)
+    M 3:4 XMLProcessor.__init__ - A (1)
+    M 25:4 XMLProcessor.find_element - A (1)
+temp.py
+    C 2:0 ZipFileProcessor - A (3)
+    M 25:4 ZipFileProcessor.create_zip_file - A (3)
+    M 5:4 ZipFileProcessor.read_zip_file - A (2)
+    M 11:4 ZipFileProcessor.extract_all - A (2)
+    M 18:4 ZipFileProcessor.extract_file - A (2)
+    M 3:4 ZipFileProcessor.__init__ - A (1)

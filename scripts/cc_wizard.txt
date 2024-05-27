@@ -1,84 +1,73 @@
 temp.py
-    M 14:4 ChandrasekharSieve.generate_primes - B
-    C 1:0 ChandrasekharSieve - A
-    M 6:4 ChandrasekharSieve.__init__ - A
-    M 34:4 ChandrasekharSieve.get_primes - A
+    M 15:4 ChandrasekharSieve.generate_primes - B (6)
+    C 2:0 ChandrasekharSieve - A (4)
+    M 7:4 ChandrasekharSieve.__init__ - A (1)
+    M 35:4 ChandrasekharSieve.get_primes - A (1)
 temp.py
-    C 1:0 AvgPartition - A
-    M 22:4 AvgPartition.get - A
-    M 6:4 AvgPartition.__init__ - A
-    M 13:4 AvgPartition.setNum - A
+    C 2:0 AvgPartition - A (2)
+    M 23:4 AvgPartition.get - A (2)
+    M 7:4 AvgPartition.__init__ - A (1)
+    M 14:4 AvgPartition.setNum - A (1)
 temp.py
-    C 3:0 MovieTicketDB - A
-    M 8:4 MovieTicketDB.__init__ - A
-    M 17:4 MovieTicketDB.create_table - A
-    M 30:4 MovieTicketDB.insert_ticket - A
-    M 42:4 MovieTicketDB.search_tickets_by_customer - A
-    M 51:4 MovieTicketDB.delete_ticket - A
+    C 4:0 MovieTicketDB - A (2)
+    M 9:4 MovieTicketDB.__init__ - A (1)
+    M 18:4 MovieTicketDB.create_table - A (1)
+    M 31:4 MovieTicketDB.insert_ticket - A (1)
+    M 43:4 MovieTicketDB.search_tickets_by_customer - A (1)
+    M 52:4 MovieTicketDB.delete_ticket - A (1)
 temp.py
-    C 4:0 NLPDataProcessor2 - A
-    M 27:4 NLPDataProcessor2.calculate_word_frequency - A
-    M 10:4 NLPDataProcessor2.process_data - A
-    M 41:4 NLPDataProcessor2.process - A
+    C 5:0 NLPDataProcessor2 - A (3)
+    M 28:4 NLPDataProcessor2.calculate_word_frequency - A (3)
+    M 11:4 NLPDataProcessor2.process_data - A (2)
+    M 42:4 NLPDataProcessor2.process - A (1)
 temp.py
-    C 1:0 NumberConverter - A
-    M 7:4 NumberConverter.decimal_to_binary - A
-    M 19:4 NumberConverter.binary_to_decimal - A
-    M 31:4 NumberConverter.decimal_to_octal - A
-    M 43:4 NumberConverter.octal_to_decimal - A
-    M 55:4 NumberConverter.decimal_to_hex - A
-    M 67:4 NumberConverter.hex_to_decimal - A
+    C 2:0 NumberConverter - A (2)
+    M 8:4 NumberConverter.decimal_to_binary - A (1)
+    M 20:4 NumberConverter.binary_to_decimal - A (1)
+    M 32:4 NumberConverter.decimal_to_octal - A (1)
+    M 44:4 NumberConverter.octal_to_decimal - A (1)
+    M 56:4 NumberConverter.decimal_to_hex - A (1)
+    M 68:4 NumberConverter.hex_to_decimal - A (1)
 temp.py
-    M 26:4 BalancedBrackets.check_balanced_brackets - B
-    C 1:0 BalancedBrackets - A
-    M 6:4 BalancedBrackets.__init__ - A
-    M 16:4 BalancedBrackets.clear_expr - A
+    M 27:4 BalancedBrackets.check_balanced_brackets - B (6)
+    C 2:0 BalancedBrackets - A (4)
+    M 7:4 BalancedBrackets.__init__ - A (1)
+    M 17:4 BalancedBrackets.clear_expr - A (1)
 temp.py
-    M 40:4 PersonRequest._validate_phoneNumber - A
-    C 1:0 PersonRequest - A
-    M 18:4 PersonRequest._validate_name - A
-    M 29:4 PersonRequest._validate_sex - A
-    M 6:4 PersonRequest.__init__ - A
+    M 41:4 PersonRequest._validate_phoneNumber - A (4)
+    C 2:0 PersonRequest - A (3)
+    M 19:4 PersonRequest._validate_name - A (3)
+    M 30:4 PersonRequest._validate_sex - A (2)
+    M 7:4 PersonRequest.__init__ - A (1)
 temp.py
-    C 1:0 BankAccount - A
-    M 23:4 BankAccount.withdraw - A
-    M 43:4 BankAccount.transfer - A
-    M 12:4 BankAccount.deposit - A
-    M 6:4 BankAccount.__init__ - A
-    M 37:4 BankAccount.view_balance - A
+    C 2:0 BankAccount - A (3)
+    M 24:4 BankAccount.withdraw - A (3)
+    M 44:4 BankAccount.transfer - A (3)
+    M 13:4 BankAccount.deposit - A (2)
+    M 7:4 BankAccount.__init__ - A (1)
+    M 38:4 BankAccount.view_balance - A (1)
 temp.py
-    C 1:0 SQLQueryBuilder - A
-    M 55:4 SQLQueryBuilder.update - A
-    M 7:4 SQLQueryBuilder.select - A
-    M 39:4 SQLQueryBuilder.delete - A
-    M 24:4 SQLQueryBuilder.insert - A
+    C 2:0 SQLQueryBuilder - A (4)
+    M 56:4 SQLQueryBuilder.update - A (4)
+    M 8:4 SQLQueryBuilder.select - A (3)
+    M 40:4 SQLQueryBuilder.delete - A (3)
+    M 25:4 SQLQueryBuilder.insert - A (2)
 temp.py
-    C 4:0 TimeUtils - A
-    M 10:4 TimeUtils.__init__ - A
-    M 16:4 TimeUtils.get_current_time - A
-    M 23:4 TimeUtils.get_current_date - A
-    M 30:4 TimeUtils.add_seconds - A
-    M 39:4 TimeUtils.string_to_datetime - A
-    M 47:4 TimeUtils.datetime_to_string - A
-    M 55:4 TimeUtils.get_minutes - A
-    M 66:4 TimeUtils.get_format_time - A
+    C 5:0 TimeUtils - A (2)
+    M 11:4 TimeUtils.__init__ - A (1)
+    M 17:4 TimeUtils.get_current_time - A (1)
+    M 24:4 TimeUtils.get_current_date - A (1)
+    M 31:4 TimeUtils.add_seconds - A (1)
+    M 40:4 TimeUtils.string_to_datetime - A (1)
+    M 48:4 TimeUtils.datetime_to_string - A (1)
+    M 56:4 TimeUtils.get_minutes - A (1)
+    M 67:4 TimeUtils.get_format_time - A (1)
 temp.py
-    C 1:0 Warehouse - A
-    M 61:4 Warehouse.create_order - A
-    M 17:4 Warehouse.add_product - A
-    M 33:4 Warehouse.update_product_quantity - A
-    M 44:4 Warehouse.get_product_quantity - A
-    M 81:4 Warehouse.change_order_status - A
-    M 96:4 Warehouse.track_order - A
-    M 6:4 Warehouse.__init__ - A
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
-************************************
+    C 2:0 Warehouse - A (3)
+    M 62:4 Warehouse.create_order - A (3)
+    M 18:4 Warehouse.add_product - A (2)
+    M 34:4 Warehouse.update_product_quantity - A (2)
+    M 45:4 Warehouse.get_product_quantity - A (2)
+    M 82:4 Warehouse.change_order_status - A (2)
+    M 97:4 Warehouse.track_order - A (2)
+    M 7:4 Warehouse.__init__ - A (1)

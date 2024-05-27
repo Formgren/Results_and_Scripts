@@ -76,19 +76,12 @@ with open('../data/ClassEval_data.json', 'r', encoding='utf-8') as f:
     model_name = 'GPT-3.5-Turbo'
 
 for i in range(len(data)):
-    predict = data[47]['solution_code']
-    task_id = data[47]['task_id']
+    predict = data[i]['solution_code']
+    task_id = data[i]['task_id']
     print(f"i: {i}")
     print(f"Task ID: {task_id}")
     #print(f"Predicted code: {predict}")
     code = extract_code(text=predict, model_name=model_name)
     test_code_snippet(code)
-    break
+
     
-
-
-
-
-#pattern_list = [r"```python(.*?)```", r"```ruby(.*?)```", r"```scss(.*?)```",
-#    r"```python(.*?)", r"```(.*?)```", r"\[PYTHON\](.*?)\[/PYTHON\]"] 
-#i = 0
