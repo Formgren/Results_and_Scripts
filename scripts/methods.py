@@ -19,7 +19,7 @@ def library_methods():
             if method['dependencies']['lib_dependencies']:
             # If it does, append it to the list
                 methods_with_lib_dependencies_GPT.append(method)
-                print(method['method_name'])
+                # print(method['method_name'])
     print('****')
     for task in data2:
         for method in task['methods_info']:
@@ -27,7 +27,7 @@ def library_methods():
             if method['dependencies']['lib_dependencies']:
             # If it does, append it to the list
                 methods_with_lib_dependencies_wizard.append(method)
-                print(method['method_name'])
+                #print(method['method_name'])
 
 
     print(f"Number of methods with library dependencies in ClassEval_GPT: {len(methods_with_lib_dependencies_GPT)}")
@@ -54,7 +54,7 @@ def standalone_methods():
             if method['dependencies']['Standalone']:
             # If it does, append its task_id to the list
                 standalone_methods_GPT.append(method)
-                print(method['method_name'])
+                #print(method['method_name'])
     print('****')
     for task in data2:
         for method in task['methods_info']:
@@ -62,7 +62,7 @@ def standalone_methods():
             if method['dependencies']['Standalone']:
             # If it does, append its task_id to the list
                 standalone_methods_wizardcoder.append(method)
-                print(method['method_name'])
+               # print(method['method_name'])
     print('****')
     #print(methods_with_lib_dependencies_GPT)
     print(f"Number of completed standalone methods in ClassEval_GPT: {len(standalone_methods_GPT)}")
@@ -84,17 +84,13 @@ def fields():
         for method in task['methods_info']:
             if method['dependencies']['field_dependencies']:
                 methods_with_field_dependencies_GPT.append(method)
-                # If it does, append its task_id to the list
-                methods_with_field_dependencies_GPT.append(method)
-                print(method['method_name'])
+                #print(method['method_name'])
     print('****')
     for task in data2:
         for method in task['methods_info']:
             if method['dependencies']['field_dependencies']:
                 methods_with_field_dependencies_wizard.append(method)
-                # If it does, append its task_id to the list
-                methods_with_field_dependencies_wizard.append(method)
-                print(method['method_name'])
+                #print(method['method_name'])
     print('****')
     #print(methods_with_lib_dependencies_GPT)
     print(f"Number of completed field methods in ClassEval_GPT: {len(methods_with_field_dependencies_GPT)}")
@@ -117,21 +113,45 @@ def methods_dep():
         for method in task['methods_info']:
             if method['dependencies']['method_dependencies']:
                 methods_with_method_dependencies_GPT.append(method)
-                # If it does, append its task_id to the list
-                methods_with_method_dependencies_GPT.append(method)
-                print(method['method_name'])
+                #print(method['method_name'])
     print('****')
     for task in data2:
         for method in task['methods_info']:
             if method['dependencies']['method_dependencies']:
                 methods_with_method_dependencies_wizard.append(method)
-                # If it does, append its task_id to the list
-                methods_with_method_dependencies_wizard.append(method)
-                print(method['method_name'])
+                #print(method['method_name'])
     print('****')
     #print(methods_with_lib_dependencies_GPT)
     print(f"Number of completed method dependent methods in ClassEval_GPT: {len(methods_with_method_dependencies_GPT)}")
     print(f"Number of completed method dependent methods in ClassEval_wizardcoder: {len(methods_with_method_dependencies_wizard)}")
+
+
+def total_succ_methods():
+        # This method extract all succ methods 
+    with open ('../functional_programs/ClassEval_GPT3_5.json') as f:
+        data = json.load(f)
+    with open ('../functional_programs/ClassEval_wizardcoder.json') as f:
+        data2 = json.load(f)
+
+    # Initialize an empty list to store task_ids
+    successful_methods_GPT = []
+    successful_methods_wizard = []
+
+    # Iterate over the tasks in data
+    for task in data:
+        for method in task['methods_info']:
+                successful_methods_GPT.append(method)
+                #print(method['method_name'])
+    print('****')
+    for task in data2:
+        for method in task['methods_info']:
+                # If it does, append its task_id to the list
+                successful_methods_wizard.append(method)
+                #print(method['method_name'])
+    print('****')
+    #print(methods_with_lib_dependencies_GPT)
+    print(f"Number of total completed methods from ClassEval_GPT: {len(successful_methods_GPT)}")
+    print(f"Number of total completed methods from ClassEval_wizardcoder: {len(successful_methods_wizard)}")
 
 
 
