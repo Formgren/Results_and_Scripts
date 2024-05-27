@@ -37,6 +37,13 @@ temp.py
     M 19:4 DataStatistics.median - A
     M 8:4 DataStatistics.mean - A
 temp.py
+    M 30:4 DatabaseProcessor.insert_into_database - A (4)
+    C 5:0 DatabaseProcessor - A (3)
+    M 43:4 DatabaseProcessor.search_database - A (2)
+    M 10:4 DatabaseProcessor.__init__ - A (1)
+    M 18:4 DatabaseProcessor.create_table - A (1)
+    M 56:4 DatabaseProcessor.delete_from_database - A (1)
+temp.py
     M 29:4 FitnessTracker.condition_judge - B
     C 1:0 FitnessTracker - A
     M 53:4 FitnessTracker.calculate_calorie_intake - A
@@ -133,9 +140,9 @@ temp.py
 
 
 
-    // 20/20 Classes = A rank
-    // 88 / 92 methods = A rank
-    // 4 / 92 methods = B rank
+    // 21/21 Classes = A rank
+    // 93 / 97 methods = A rank
+    // 4 / 97 methods = B rank
 ************************************
 ************************************
 ************************************

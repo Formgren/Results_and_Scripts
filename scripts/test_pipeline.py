@@ -74,15 +74,6 @@ with open('../functional_programs/ClassEval_GPT3_5.json', 'r') as f:
 #with open('/Users/mac/Desktop/KTH/TIDAB3/Exjobb/ClassEval/output/model_output_v1.0.0/GPT-3.5-Turbo_class_H_t0.2.json', 'r') as f:
     data = json.load(f)
 
-
-# Test one specific class
-# task_index = 9
-
-# predict = data[task_index]['predict'][0]
-# code = postprocess_markdown(predict)
-# print(code)
-# test_code_snippet(code)
-# Replace 'model_name' with the actual model name
     model_name = 'GPT-3.5-Turbo'
 
 for i in range(len(data)):
