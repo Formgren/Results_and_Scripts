@@ -1,3 +1,11 @@
+# Directory Structure
+
+- **Data** - contains the dataset in a structured JSON format
+- **Evals** - contains the evaluation on each model generation class task
+- **Functional programs** - contains the programs that passed all the task level unit tests
+- **Model output** - contains the raw model output
+- **Scripts** - contains scripts that were used in the project for different purposes
+
 # Packages in current conda environment
 
 | Package             | Version    |
